@@ -10,8 +10,8 @@ import RoboRowdy from '@/pages/RoboRowdy'
 import RobotDetail from '@/pages/RobotDetail'
 import About from '@/pages/About'
 import VEXU from '@/pages/About/VexU'
-// import Contact from '@/pages/Contact'
-// import Donate from '@/pages/Donate'
+import Contact from '@/pages/Contact'
+import Donate from '@/pages/Donate'
 import NotFound from '@/pages/NotFound'
 
 function App() {
@@ -77,8 +77,8 @@ function App() {
         <Route path="/robots/:year" element={<RobotDetail />} />
         <Route path="/about" element={<About />} />
         <Route path="/about/vexu" element={<VEXU />} />
-        {/* <Route path="/donate" element={<Donate />} />
-        <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/donate" element={<Donate />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

@@ -49,16 +49,16 @@ const Navbar = ({ tinted = false }) => {
                 <div className="nav-text">Sponsors</div>
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link" to="/donate">
-                <div className="nav-text">Donate</div>
-              </Link>
-            </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/donate">
+                  <div className="nav-text">Donate</div>
+                </Link>
+              </li>
             <li className="nav-item">
               <Link className="nav-link" to="/contact">
                 <div className="nav-text">Contact</div>
               </Link>
-            </li> */}
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about/vexu">
                 <div className="nav-text"><i>VEX U</i></div>
