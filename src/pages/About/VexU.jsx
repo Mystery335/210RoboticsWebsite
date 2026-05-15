@@ -1,6 +1,6 @@
-import '@/assets/css/about/first.css'
+import "@/assets/css/about/first.css";
 
-const First = () => {
+const VEXU = () => {
   return (
     <>
       <div className="top-bg">
@@ -9,7 +9,9 @@ const First = () => {
           Your browser does not support the video tag.
         </video>
         <div className="title-banner">
-          <h1><i>FIRST</i>® ROBOTICS</h1>
+          <h1>
+            <i>FIRST</i>® ROBOTICS
+          </h1>
         </div>
       </div>
       <section className="first-section dark" id="first">
@@ -37,11 +39,12 @@ const First = () => {
                     <p>
                       <i>FIRST</i> was founded in 1989 by prolific inventor Dean
                       Kamen as he became frustrated with popular culture's
-                      obsession over sports and entertainment with little interest
-                      in science and technology. He believed that it was necessary
-                      to present science and technology in a fun and exciting way.
-                      Teaming up with MIT mechanical engineer professor Woodie
-                      Flowers, Mr. Kamen launched a program called <i>FIRST</i>.
+                      obsession over sports and entertainment with little
+                      interest in science and technology. He believed that it
+                      was necessary to present science and technology in a fun
+                      and exciting way. Teaming up with MIT mechanical engineer
+                      professor Woodie Flowers, Mr. Kamen launched a program
+                      called <i>FIRST</i>.
                     </p>
                   </div>
                   <div className="founder-images">
@@ -70,10 +73,14 @@ const First = () => {
                 <div className="cryptonite-item">
                   <div className="cryptonite-description">
                     <p>
-                      CRyptonite is part of <strong><i>FIRST</i>®</strong> (For
-                      Inspiration and Recognition of Science and Technology), an
-                      international non-profit organization to transform culture
-                      and inspire young people to be technology leaders.
+                      CRyptonite is part of{" "}
+                      <strong>
+                        <i>FIRST</i>®
+                      </strong>{" "}
+                      (For Inspiration and Recognition of Science and
+                      Technology), an international non-profit organization to
+                      transform culture and inspire young people to be
+                      technology leaders.
                     </p>
                   </div>
                 </div>
@@ -82,19 +89,25 @@ const First = () => {
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                 <div className="program-item lego">
-                  <h3><i>FIRST</i> LEGO LEAGUE</h3>
+                  <h3>
+                    <i>FIRST</i> LEGO LEAGUE
+                  </h3>
                   <p>Ages 9-16</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                 <div className="program-item tech">
-                  <h3><i>FIRST</i> TECH CHALLENGE</h3>
+                  <h3>
+                    <i>FIRST</i> TECH CHALLENGE
+                  </h3>
                   <p>Ages 12-18</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 col-sm-12 mb-3">
                 <div className="program-item robotics">
-                  <h3><i>FIRST</i> ROBOTICS COMPETITION</h3>
+                  <h3>
+                    <i>FIRST</i> ROBOTICS COMPETITION
+                  </h3>
                   <p>Ages 14-18</p>
                 </div>
               </div>
@@ -112,12 +125,13 @@ const First = () => {
               <p>
                 The <i>FIRST</i> Robotics Competition (FRC) began in 1992 with
                 only 28 teams competing in a New Hampshire high school gym. It
-                paired high school students with professional engineers as mentors
-                to teach them engineering, science, and technology in a fun and
-                engaging way. This idea quickly caught on and spread throughout
-                the country. As it grew, FRC stayed true to its core values of
-                "Gracious Professionalism®" - even though teams fiercely compete,
-                they respect their competitors and support them when it is needed.
+                paired high school students with professional engineers as
+                mentors to teach them engineering, science, and technology in a
+                fun and engaging way. This idea quickly caught on and spread
+                throughout the country. As it grew, FRC stayed true to its core
+                values of "Gracious Professionalism®" - even though teams
+                fiercely compete, they respect their competitors and support
+                them when it is needed.
               </p>
             </div>
             <div className="frc-image-left">
@@ -144,9 +158,9 @@ const First = () => {
                 grown to encompass numerous programs. The <i>FIRST</i> LEGO®
                 League (FLL) and <i>FIRST</i> LEGO® League Jr. programs give
                 elementary and middle school students the chance to use
-                engineering principles with Lego robots, and the <i>FIRST</i> Tech
-                Challenge (FTC) teaches science and technology to middle school
-                and high school students.
+                engineering principles with Lego robots, and the <i>FIRST</i>{" "}
+                Tech Challenge (FTC) teaches science and technology to middle
+                school and high school students.
               </p>
             </div>
           </div>
@@ -181,11 +195,11 @@ const First = () => {
               <div className="col-8 seasons-text">
                 <h3>Kickoff</h3>
                 <p>
-                  The season officially begins with Kickoff, where the year's game
-                  is revealed. Teams receive the game manual, field elements, and
-                  kit of parts. This is an exciting day filled with strategy
-                  discussions, initial prototyping ideas, and the start of the
-                  intense 6-week build period.
+                  The season officially begins with Kickoff, where the year's
+                  game is revealed. Teams receive the game manual, field
+                  elements, and kit of parts. This is an exciting day filled
+                  with strategy discussions, initial prototyping ideas, and the
+                  start of the intense 6-week build period.
                 </p>
               </div>
               <div className="col-4 seasons-image">
@@ -207,11 +221,11 @@ const First = () => {
               <div className="col-8 seasons-text">
                 <h3>Build Season</h3>
                 <p>
-                  The heart of <i>FIRST</i> Robotics - 6 weeks of intense design,
-                  prototyping, building, and programming. Teams work together to
-                  create a robot that can compete in the year's game. This period
-                  teaches time management, engineering principles, and
-                  collaborative problem-solving.
+                  The heart of <i>FIRST</i> Robotics - 6 weeks of intense
+                  design, prototyping, building, and programming. Teams work
+                  together to create a robot that can compete in the year's
+                  game. This period teaches time management, engineering
+                  principles, and collaborative problem-solving.
                 </p>
               </div>
             </div>
@@ -219,10 +233,11 @@ const First = () => {
               <div className="col-8 seasons-text">
                 <h3>Competition</h3>
                 <p>
-                  Teams compete in regional and district events, showcasing their
-                  robots and demonstrating gracious professionalism. It's not just
-                  about winning - teams are judged on their robot performance,
-                  community outreach, and how they embody <i>FIRST</i> values.
+                  Teams compete in regional and district events, showcasing
+                  their robots and demonstrating gracious professionalism. It's
+                  not just about winning - teams are judged on their robot
+                  performance, community outreach, and how they embody{" "}
+                  <i>FIRST</i> values.
                 </p>
               </div>
               <div className="col-4 seasons-image">
@@ -246,8 +261,9 @@ const First = () => {
                 <p>
                   After competitions end, teams continue learning through
                   off-season events, community demonstrations, and skill
-                  development. This is time for reflection, planning improvements,
-                  and sharing knowledge with other teams and the community.
+                  development. This is time for reflection, planning
+                  improvements, and sharing knowledge with other teams and the
+                  community.
                 </p>
               </div>
             </div>
@@ -264,12 +280,12 @@ const First = () => {
               <div className="competition-info-item">
                 <h3>Matches</h3>
                 <p>
-                  Each FRC match is two and half minutes long. Alliances of three
-                  teams each compete on a 54 x 26 foot field completing game
-                  objectives. In the past, robots have been required to shoot
-                  exercise balls into goals 15 feet off the ground, shoot frisbees
-                  into relatively small goals above, and climb free-standing bars
-                  with another robot in tow.
+                  Each FRC match is two and half minutes long. Alliances of
+                  three teams each compete on a 54 x 26 foot field completing
+                  game objectives. In the past, robots have been required to
+                  shoot exercise balls into goals 15 feet off the ground, shoot
+                  frisbees into relatively small goals above, and climb
+                  free-standing bars with another robot in tow.
                 </p>
               </div>
               <div className="competition-info-item">
@@ -278,8 +294,8 @@ const First = () => {
                   At any FRC competition, teams compete in a set of preliminary
                   matches, where for completing certain game objectives and
                   winning the match, teams collect Ranking Points. At the end of
-                  prelims, the team with the most Ranking Points is considered the
-                  first seed, and so on. Teams then partake in an "Alliance
+                  prelims, the team with the most Ranking Points is considered
+                  the first seed, and so on. Teams then partake in an "Alliance
                   Selection" process, where based on seeding, teams can invite
                   other teams to create an alliance for the Playoffs, a regular
                   seeded single-elimination bracket.
@@ -291,11 +307,11 @@ const First = () => {
                   CRyptonite utilizes nearly forty students at each competition.
                   Before the team even competes, students go through a rigorous
                   tryout process to get a spot on the Drive Team and Pit Crew.
-                  Following the selection of these roles, further tryouts are held
-                  to decide who holds key scouting roles and other key needs. All
-                  students attending a competition have already met a high bar for
-                  attendance, and each student plays a distinct and crucial role
-                  to ensure success.
+                  Following the selection of these roles, further tryouts are
+                  held to decide who holds key scouting roles and other key
+                  needs. All students attending a competition have already met a
+                  high bar for attendance, and each student plays a distinct and
+                  crucial role to ensure success.
                 </p>
               </div>
             </div>
@@ -304,7 +320,8 @@ const First = () => {
                 <h3>More than Robots</h3>
                 <p>
                   As any CRyptonite student can attest, <i>FIRST</i> is a truly
-                  incredible organization. Find out more about <i>FIRST</i> at&nbsp;
+                  incredible organization. Find out more about <i>FIRST</i>{" "}
+                  at&nbsp;
                   <a
                     href="https://www.firstinspires.org"
                     target="_blank"
@@ -341,15 +358,16 @@ const First = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            The <i>FIRST</i> Impact Award is the most prestigious
-                            award at <i>FIRST</i>, it honors the team that best
-                            represents a model for other teams to emulate and best
-                            embodies the mission of <i>FIRST</i>. It was created
-                            to keep the central focus of <i>FIRST</i> Robotics
-                            Competition on the ultimate goal of transforming the
-                            culture in ways that will inspire greater levels of
-                            respect and honor for science and technology, as well
-                            as encouraging more of today's youth to become science
+                            The <i>FIRST</i> Impact Award is the most
+                            prestigious award at <i>FIRST</i>, it honors the
+                            team that best represents a model for other teams to
+                            emulate and best embodies the mission of{" "}
+                            <i>FIRST</i>. It was created to keep the central
+                            focus of <i>FIRST</i> Robotics Competition on the
+                            ultimate goal of transforming the culture in ways
+                            that will inspire greater levels of respect and
+                            honor for science and technology, as well as
+                            encouraging more of today's youth to become science
                             and technology leaders.
                           </p>
                         </div>
@@ -378,10 +396,10 @@ const First = () => {
                           <p>
                             The 2020 Safety Animation Award theme is
                             <em>'Sustainability on the RISE'</em>. This season
-                            presents a unique opportunity for us to RISE together
-                            to transform world sustainability. Your animation
-                            should focus on the theme of sustainability giving
-                            consideration to the concepts:
+                            presents a unique opportunity for us to RISE
+                            together to transform world sustainability. Your
+                            animation should focus on the theme of
+                            sustainability giving consideration to the concepts:
                           </p>
                           <ul>
                             <li>sustainable cities and communities</li>
@@ -447,9 +465,12 @@ const First = () => {
                               among the team, school, and community.
                             </li>
                             <li>
-                              Achievement of the <em><i>FIRST</i></em> mission and
-                              ability to communicate that at the competition and
-                              aw
+                              Achievement of the{" "}
+                              <em>
+                                <i>FIRST</i>
+                              </em>{" "}
+                              mission and ability to communicate that at the
+                              competition and aw
                             </li>
                           </ul>
                         </div>
@@ -488,9 +509,9 @@ const First = () => {
                               strategy, etc. in concept and execution.
                             </li>
                             <li>
-                              The innovation is practical; it addresses the game's
-                              challenge. It is not just a cute idea and is
-                              reliable under the stress of competition.
+                              The innovation is practical; it addresses the
+                              game's challenge. It is not just a cute idea and
+                              is reliable under the stress of competition.
                             </li>
                           </ul>
                         </div>
@@ -517,12 +538,12 @@ const First = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Celebrates the team that has demonstrated consistent,
-                            reliable, high-performance robot operation during
-                            autonomously managed actions. Evaluation is based on
-                            the robot's ability to sense its surroundings,
-                            position itself or onboard mechanisms appropriately,
-                            and execute tasks.
+                            Celebrates the team that has demonstrated
+                            consistent, reliable, high-performance robot
+                            operation during autonomously managed actions.
+                            Evaluation is based on the robot's ability to sense
+                            its surroundings, position itself or onboard
+                            mechanisms appropriately, and execute tasks.
                           </p>
                           <p>
                             The award is based on the performance of the robot's
@@ -580,9 +601,10 @@ const First = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Celebrates an innovative control system or application
-                            of control components – electrical, mechanical or
-                            software – to provide unique machine functions.
+                            Celebrates an innovative control system or
+                            application of control components – electrical,
+                            mechanical or software – to provide unique machine
+                            functions.
                           </p>
                           <ul>
                             <li>
@@ -597,9 +619,9 @@ const First = () => {
                               strategy, etc. in concept and execution.
                             </li>
                             <li>
-                              The innovation is practical; it addresses the game's
-                              challenge. It is not just a cute idea and is
-                              reliable under the stress of competition.
+                              The innovation is practical; it addresses the
+                              game's challenge. It is not just a cute idea and
+                              is reliable under the stress of competition.
                             </li>
                           </ul>
                         </div>
@@ -626,21 +648,24 @@ const First = () => {
                       >
                         <div className="accordion-body">
                           <p>
-                            Celebrates extraordinary enthusiasm and spirit through
-                            exceptional partnership and teamwork furthering the
-                            objectives of <em><i>FIRST</i></em
-                            >.
+                            Celebrates extraordinary enthusiasm and spirit
+                            through exceptional partnership and teamwork
+                            furthering the objectives of{" "}
+                            <em>
+                              <i>FIRST</i>
+                            </em>
+                            .
                           </p>
                           <ul>
                             <li>
                               Spirit is consistent both throughout the team and
-                              also throughout the contest in attitude, appearance,
-                              originality, and depth.
+                              also throughout the contest in attitude,
+                              appearance, originality, and depth.
                             </li>
                             <li>
-                              The team displays obvious enthusiasm – in supporting
-                              teams, appearance, interactions with teams/Judges,
-                              etc. – at the competition.
+                              The team displays obvious enthusiasm – in
+                              supporting teams, appearance, interactions with
+                              teams/Judges, etc. – at the competition.
                             </li>
                             <li>
                               Spirit is part of the team and is apparent in all
@@ -674,23 +699,37 @@ const First = () => {
                         <div className="accordion-body">
                           <p>
                             Criteria for selection of the
-                            <em><i>FIRST</i></em> Dean's List Award shall include,
-                            but not be limited to a student's:
+                            <em>
+                              <i>FIRST</i>
+                            </em>{" "}
+                            Dean's List Award shall include, but not be limited
+                            to a student's:
                           </p>
                           <ul>
                             <li>
                               Demonstrated leadership and commitment to the
-                              <em><i>FIRST</i></em> Core Values
+                              <em>
+                                <i>FIRST</i>
+                              </em>{" "}
+                              Core Values
                             </li>
                             <li>
                               Effectiveness at increasing awareness of
-                              <em><i>FIRST</i></em> in the school and community
+                              <em>
+                                <i>FIRST</i>
+                              </em>{" "}
+                              in the school and community
                             </li>
                             <li>
                               Interest in and passion for a long-term commitment
-                              to <em><i>FIRST</i></em>
+                              to{" "}
+                              <em>
+                                <i>FIRST</i>
+                              </em>
                             </li>
-                            <li>Overall individual contribution to their team</li>
+                            <li>
+                              Overall individual contribution to their team
+                            </li>
                             <li>Technical expertise and passion</li>
                             <li>Entrepreneurship and creativity</li>
                             <li>
@@ -700,9 +739,12 @@ const First = () => {
                           <p>
                             Although a single mentor must submit the nomination,
                             the team as a whole must verify the accuracy of the
-                            submission. <em><i>FIRST</i></em> is relying upon the
-                            team for the veracity and accuracy of the submission
-                            data.
+                            submission.{" "}
+                            <em>
+                              <i>FIRST</i>
+                            </em>{" "}
+                            is relying upon the team for the veracity and
+                            accuracy of the submission data.
                           </p>
                         </div>
                       </div>
@@ -731,15 +773,15 @@ const First = () => {
                             This award recognizes an individual who has done an
                             outstanding job of motivation through communication
                             while also challenging the students to be clear and
-                            succinct in their communications. As such, it is very
-                            important that this be a student-led effort and a
-                            student decision. One student will act as the
+                            succinct in their communications. As such, it is
+                            very important that this be a student-led effort and
+                            a student decision. One student will act as the
                             nominator. Lead Mentors/Coaches should direct 1 or 2
                             students to the online entry site and let the high
                             school students decide whom to nominate. Adults can
                             help edit and should check the essay and the
-                            submission information for accuracy, but this must be
-                            a student-led effort. The author(s) of the
+                            submission information for accuracy, but this must
+                            be a student-led effort. The author(s) of the
                             3,000-character (max.) essay must be clearly
                             identified as high school students in the online
                             submission.
@@ -756,6 +798,6 @@ const First = () => {
       </section>
     </>
   );
-}
+};
 
-export default First
+export default VEXU;

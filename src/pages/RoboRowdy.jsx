@@ -2,7 +2,7 @@ import '@/assets/css/robots.css'
 import robotsData from '../data/robots.json'
 import { Link } from 'react-router-dom'
 
-const Robots = () => {
+const RoboRowdy = () => {
   const years = Object.keys(robotsData).sort((a, b) => b - a)
 
   return (
@@ -56,4 +56,4 @@ const Robots = () => {
   )
 }
 
-export default Robots;
+export default RoboRowdy;

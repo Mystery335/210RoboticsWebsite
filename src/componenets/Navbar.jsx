@@ -7,9 +7,9 @@ const Navbar = ({ tinted = false }) => {
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img
-            src="../assets/img/logo-text.svg"
-            alt="Cryptonite"
-            style={{height: "30px"}}
+            src="../assets/img/210Robotics.png"
+            alt="210 Robotics"
+            style={{height: "60px"}}
           />
         </Link>
         <button
@@ -35,8 +35,8 @@ const Navbar = ({ tinted = false }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about/first">
-                <div className="nav-text"><i>FIRST</i></div>
+              <Link className="nav-link" to="/RoboRowdy">
+                <div className="nav-text">RoboRowdy</div>
               </Link>
             </li>
             <li className="nav-item">
@@ -44,11 +44,7 @@ const Navbar = ({ tinted = false }) => {
                 <div className="nav-text">History</div>
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/robots">
-                <div className="nav-text">Robots</div>
-              </Link>
-            </li>
+          
             <li className="nav-item">
               <Link className="nav-link" to="/sponsors">
                 <div className="nav-text">Sponsors</div>
@@ -67,6 +63,11 @@ const Navbar = ({ tinted = false }) => {
             <li className="nav-item">
               <Link className="nav-link" to="/team">
                 <div className="nav-text">Team</div>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about/vexu">
+                <div className="nav-text"><i>VEX U</i></div>
               </Link>
             </li>
           </ul>
