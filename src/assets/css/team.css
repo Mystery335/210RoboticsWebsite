@@ -62,6 +62,16 @@ html {
   gap: var(--gap);
 }
 
+.mentors-grid > :nth-child(5) {
+  transform: translateX(50%);
+}
+.mentors-grid > :nth-child(6) {
+  transform: translateX(50%);
+}
+.mentors-grid > :nth-child(7) {
+  transform: translateX(50%);
+}
+
 @media (max-width: 768px) {
   .mentors-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -109,9 +119,13 @@ html {
   margin-top: 0.25rem;
 }
 
-.alumni-grid {
-  margin-top: 2rem;
+.mentor-card span {
+  color: var(--teamgreen);
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
 }
-.alumni-grid .col-lg-4 {
-  padding: calc(var(--gap) / 2);
+
+#teamMentor{
+  padding: 0;
 }
