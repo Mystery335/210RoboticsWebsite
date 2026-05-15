@@ -35,36 +35,30 @@ const Navbar = ({ tinted = false }) => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/team">
+                <div className="nav-text">Team</div>
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/RoboRowdy">
                 <div className="nav-text">RoboRowdy</div>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about/history">
-                <div className="nav-text">History</div>
-              </Link>
-            </li>
-          
-            <li className="nav-item">
               <Link className="nav-link" to="/sponsors">
                 <div className="nav-text">Sponsors</div>
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/outreach">
-                <div className="nav-text">Outreach</div>
+            {/* <li className="nav-item">
+              <Link className="nav-link" to="/donate">
+                <div className="nav-text">Donate</div>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/headlines">
-                <div className="nav-text">Headlines</div>
+              <Link className="nav-link" to="/contact">
+                <div className="nav-text">Contact</div>
               </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/team">
-                <div className="nav-text">Team</div>
-              </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link className="nav-link" to="/about/vexu">
                 <div className="nav-text"><i>VEX U</i></div>

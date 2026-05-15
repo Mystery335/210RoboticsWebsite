@@ -1,8 +1,8 @@
-import { useEffect } from 'react'
-import '@/assets/css/about/history.css'
-import buttonsData from '@/data/buttons.json'
-import journeyData from '@/data/journey.json'
-import awardsData from '@/data/awards.json'
+import { useEffect } from "react";
+import "@/assets/css/about/history.css";
+import buttonsData from "@/data/buttons.json";
+import journeyData from "@/data/journey.json";
+import awardsData from "@/data/awards.json";
 
 const History = () => {
   useEffect(() => {
@@ -34,7 +34,7 @@ const History = () => {
 
       requestAnimationFrame(step);
     });
-  }, [])
+  }, []);
   return (
     <>
       <div className="top-bg">
@@ -54,9 +54,9 @@ const History = () => {
             <div className="col-12 col-md-4">
               <div className="stat-item">
                 <div className="stat-number display-3 fw-bold">
-                  <span className="count" data-target="20" data-duration="1200"
-                  >0</span
-                  >
+                  <span className="count" data-target="20" data-duration="1200">
+                    0
+                  </span>
                 </div>
                 <div className="stat-label">Blue Banners</div>
               </div>
@@ -69,8 +69,9 @@ const History = () => {
                     data-target="100"
                     data-suffix="+"
                     data-duration="1400"
-                  >0</span
                   >
+                    0
+                  </span>
                 </div>
                 <div className="stat-label">Awards</div>
               </div>
@@ -78,9 +79,13 @@ const History = () => {
             <div className="col-12 col-md-4">
               <div className="stat-item">
                 <div className="stat-number display-3 fw-bold">
-                  <span className="count years" data-target="23" data-duration="1200"
-                  >0</span
+                  <span
+                    className="count years"
+                    data-target="23"
+                    data-duration="1200"
                   >
+                    0
+                  </span>
                 </div>
                 <div className="stat-label">Years Competing</div>
               </div>
@@ -113,7 +118,10 @@ const History = () => {
                 </div>
                 <div className="carousel-inner rounded-3 overflow-hidden">
                   {Array.from({ length: journeyData.slides }).map((_, idx) => (
-                    <div key={idx} className={`carousel-item ${idx === 0 ? "active" : ""}`}>
+                    <div
+                      key={idx}
+                      className={`carousel-item ${idx === 0 ? "active" : ""}`}
+                    >
                       <img
                         src={`../assets/img/history/slides/slide${idx + 1}.jpg`}
                         className="d-block w-100"
@@ -202,35 +210,37 @@ const History = () => {
           </div>
 
           <div className="row">
-            {Object.entries(awardsData).reverse().map(([year, events]) => (
-              <div key={year} className="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div className="card624">
-                  <div className="card-header-624">{year}</div>
-                  <img
-                    src={`../assets/img/history/years/${year}.jpg`}
-                    alt={`${year} Highlights`}
-                    className="card-img-624"
-                  />
-                  <div className="card-content-624 list-card">
-                    {events.map((event, idx) => (
-                      <div key={idx}>
-                        <h5>{event.title}</h5>
-                        <ul>
-                          {event.awards.map((award, awardIdx) => (
-                            <li key={awardIdx}>{award}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
+            {Object.entries(awardsData)
+              .reverse()
+              .map(([year, events]) => (
+                <div key={year} className="col-lg-4 col-md-6 col-sm-12 mb-4">
+                  <div className="card624">
+                    <div className="card-header-624">{year}</div>
+                    <img
+                      src={`../assets/img/history/years/${year}.jpg`}
+                      alt={`${year} Highlights`}
+                      className="card-img-624"
+                    />
+                    <div className="card-content-624 list-card">
+                      {events.map((event, idx) => (
+                        <div key={idx}>
+                          <h5>{event.title}</h5>
+                          <ul>
+                            {event.awards.map((award, awardIdx) => (
+                              <li key={awardIdx}>{award}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
           </div>
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
 export default History;
