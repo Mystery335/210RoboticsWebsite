@@ -1,3 +1,4 @@
-# New 2026 Team 624 Website!
+# 210 Robotics Website!
 
-`created by Vatsal Sharda`
+`Created by Vian Chen, William Chen`
+`Designed by Hailey Muñiz`
