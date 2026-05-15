@@ -15,7 +15,7 @@ html {
 }
 
 :root {
-  --teamgreen: #00ff00;
+  --teamgreen: #fff480;
   --bordergreen: var(--teamgreen);
   --gap: 24px;
 }
@@ -356,7 +356,7 @@ section.light {
 
 .title-banner h1 {
   font-weight: bold;
-  color: var(--teamgreen);
+  color: #a0e4ff;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin: 0;

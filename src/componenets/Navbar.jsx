@@ -7,7 +7,7 @@ const Navbar = ({ tinted = false }) => {
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img
-            src="../assets/img/210Robotics.png"
+            src="../assets/img/210Robotics - Siemens.png"
             alt="210 Robotics"
             style={{height: "60px"}}
           />
