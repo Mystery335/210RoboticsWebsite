@@ -1,0 +1,60 @@
+{
+  "headlines": [
+    {
+      "eventTitle": "STEAM Night",
+      "eventContent": "During the Katy ISD STEAM Night at the Shaw Center, Team 624 held a robotics demonstration for our community, giving back to the very people who support us every day while providing families in the Greater Katy area the opportunity to discover the various STEAM and FIRST programs that KISD offers. Students taught the youth about STEAM through our team's “STEAM boxes” to garner an interest in STEAM. Younger students were excited and engaged with projects ranging from simple rockets to makeshift claws. Team members also provided tours of our work bay and updated the community on upcoming plans, training, and competitions.",
+      "eventImageDir": "assets/img/headlines/steam-night-2025/",
+      "eventDate": "September 6, 2025",
+      "numberEventImages": 19
+    },
+    {
+      "eventTitle": "Best Buddies Outreach Day",
+      "eventContent": "Team 624 invited the Best Buddies program from Cinco Ranch HS to join us for a day of fun, inclusive STEM activities, providing necessary STEM resources to students with intellectual and developmental disorders (IDD). CRyptonite and the buddies worked side by side on hands-on activities exploring STEM concepts. Participants enjoyed a robot demonstration and learned about robotics in a supportive environment. From our mini zipline to elephant toothpaste, the event fostered meaningful connections and lots of smiles.",
+      "eventImageDir": "assets/img/headlines/best-buddies-2025/",
+      "eventDate": "September 27, 2025",
+      "numberEventImages": 17
+    },
+    {
+      "eventTitle": "Safety Training with Freeman HS",
+      "eventContent": "After helping the newly created Freeman High School establish their own FRC team, Team 624 invited Team 11242 for their first safety training. After learning build safety procedures and completing a safety test, the rookie team gained foundational knowledge of FRC. With tools training and a tour of our machine shop, CRyptonite provided Team 11242 with resources to begin their team, along with ongoing mentorship.",
+      "eventImageDir": "assets/img/headlines/freeman-safety-training/",
+      "eventDate": "October 28, 2025",
+      "numberEventImages": 5
+    },
+    {
+      "eventTitle": "Rylander Science Night",
+      "eventContent": "Team 624 curated an evening of hands-on learning for Rylander Elementary's Science Night. With 12 student-led stations, robot demonstrations, and interactive experiments, elementary students explored STEM concepts, asked questions, and engaged in activities that encouraged curiosity. The event sparked interest in science and engineering for hundreds of youth and allowed CRyptonite members to share their passion for STEM.",
+      "eventImageDir": "assets/img/headlines/rylander-science-night/",
+      "eventDate": "November 6, 2025",
+      "numberEventImages": 15
+    },
+    {
+      "eventTitle": "Team 624 Science Day Camp",
+      "eventContent": "Team 624 hosted its annual Science Day Camp, a morning filled with hands-on STEM activities for students in grades 3-5. Attendees rotated through interactive stations, experiments, and demonstrations introducing a wide range of STEM concepts. Participants also watched a robot demonstration, giving them a closer look at what Team 624 does. The camp provided an engaging opportunity for younger students to explore STEM alongside our team members.",
+      "eventImageDir": "assets/img/headlines/science-day-camp-2025/",
+      "eventDate": "December 6, 2025",
+      "numberEventImages": 6
+    },
+    {
+      "eventTitle": "Visit to Rugged Robotics",
+      "eventContent": "Team 624 was invited to the Rugged Robotics headquarters for an in-depth tour of their facility. Students observed real-world engineering applications and learned how ideas become reality. The Rugged Robotics team presented their design process, highlighting problem-solving, iteration, and teamwork. The experience offered valuable insight into STEM career pathways and how FRC skills translate to professional environments.",
+      "eventImageDir": "assets/img/headlines/rugged-robotics-tour/",
+      "eventDate": "December 6, 2025",
+      "numberEventImages": 3
+    },
+    {
+      "eventTitle": "Rebuilt Kickoff 2026",
+      "eventContent": "The 2026 season has arrived! CRyptonite celebrated the beginning of the FRC Rebuilt season with a potluck lunch, followed by watching the official game livestream reveal. Following the reveal, members split into groups to begin brainstorming strategies and robot design.",
+      "eventImageDir": "assets/img/headlines/kickoff-2026/",
+      "eventDate": "January 10, 2026",
+      "numberEventImages": 3
+    },
+    {
+      "eventTitle": "Visit to EMI",
+      "eventContent": "Team 624 was invited to tour Electro-Mechanical Industries (EMI). During this tour, they received an in-depth look at their expansive machine shop, and were able to gain valuable insight into different methods used to form and manipulate steel with quality and efficiency in mind. From welding machines that require minimal human effort to steel “vending machines”, CRyptonite was given another opportunity to see how the skills learned in FRC can translate to a career.",
+      "eventImageDir": "assets/img/headlines/emi-visit/",
+      "eventDate": "January 5, 2026",
+      "numberEventImages": 3
+    }
+  ]
+}

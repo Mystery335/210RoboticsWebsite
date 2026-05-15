@@ -1,0 +1,463 @@
+{
+  "currentStudents": {
+    "freshmen": [
+      "Deeptanava Roy",
+      "JD Cappis",
+      "Bhavish Paladugula",
+      "Suhas Sirumala",
+      "Lucas Mikalson",
+      "Bryce Delafield",
+      "Zhetong Hu",
+      "Nidhish Kakkireni",
+      "Luca Trinh",
+      "Sebastian Ayala",
+      "Ian Kim",
+      "Dheeraj Vavilala",
+      "Noah Anzek",
+      "Kieran Weightman",
+      "Srisha C.",
+      "Maxwell Orchowski",
+      "Malek Abdelhalim",
+      "Ender Fontenot",
+      "Max Yan",
+      "Shaurya Ravikanth",
+      "Dylan Vu",
+      "Amy Dominguez",
+      "Sean McDonald",
+      "Daniel Frame",
+      "Miriam Salem",
+      "Gabrielle Lewis",
+      "Aiden Hostler",
+      "Zion Zhang",
+      "Pranavi Pakalapati"
+    ],
+    "sophomores": [
+      "James Ivey",
+      "Arush Chawan",
+      "Jude Broussard",
+      "Abdelrahman Abdelhalim",
+      "Eli Graves",
+      "Vatsal Sharda",
+      "Cooper Heston",
+      "Rithwik Thamma",
+      "Jill Patel",
+      "Lakshya Deshpande",
+      "Kayla Hickman",
+      "Ibrahim Gandhi",
+      "Kolton Lee",
+      "Shafi Khan",
+      "Katarina Konarski",
+      "Ruthv Gunishetti",
+      "Zahra Dak",
+      "Darya Khristodorov",
+      "Brian Kuo",
+      "Finn Kristensen",
+      "Benjamin Bursons",
+      "Federico Hernandez Fonseca",
+      "Nathan Sharma"
+    ],
+    "juniors": [
+      "Chamika Udugamasooriya",
+      "Samruddhi Dighe",
+      "Neil Mahimkar",
+      "Anurag Anandprasad",
+      "Anna Green",
+      "Jacob Shin",
+      "Cooper Cowie",
+      "Myeongjae Seo",
+      "Arick Stringham",
+      "Alberth Graterol",
+      "Karim Khalil",
+      "YuSeung Cha",
+      "Anna Hughes",
+      "Lakshya Sachdeva"
+    ],
+    "seniors": [
+      "Zane Chaudhry",
+      "Aryan Chawan",
+      "Lucy Ebben",
+      "Ruemu Otoba",
+      "Sophie Cai",
+      "Ishan Paliwal",
+      "Andrew Xia",
+      "Lucas Avila"
+    ]
+  },
+  "boosterClubOfficers": {
+    "Katie Nicksic": "President",
+    "Shailesh Dighe": "President Elect",
+    "Gary Lauderdale": "Faculty Sponsor",
+    "Steven Henderson": "Lead Mentor",
+    "Jack Muskopf": "Treasurer",
+    "Lana Henderson": "First Liaison",
+    "Ginny Ebben": "Secretary",
+    "Doug Graves": "Competition Coordinator"
+  },
+  "teamMentors": [
+    "Steven Henderson",
+    "Lana Henderson",
+    "Mike Outlaw",
+    "Juli Outlaw",
+    "David Edelson",
+    "Jack Muskopf",
+    "Darrin Smith",
+    "Karl Schuler",
+    "Hunter Herzfeld",
+    "Jack Sampson",
+    "Anuraag Routray",
+    "Arshon Bozorgi"
+  ],
+  "alumni": {
+    "2025": {
+      "students": [
+        "Liam Longfield",
+        "Emily McIlwain",
+        "Aditya Penematsa",
+        "Nicole Teerman",
+        "Jacob White",
+        "Tomas Tellez",
+        "Eli Nicksic",
+        "Alberto Puebla",
+        "Brandon Taylor",
+        "Nolan Drake"
+      ],
+      "picture": "assets/img/team/alumni/2025.jpg"
+    },
+    "2024": {
+      "students": [
+        "Gavin Wang",
+        "Spencer Shushan",
+        "Sarah Thomas",
+        "Nataly Bittencourt",
+        "Rafael Calderon",
+        "David DeVaull",
+        "Laith Canning",
+        "Luke Stillson",
+        "Harshal Towde",
+        "Suheet Sardeshpande",
+        "Braden LeFoll",
+        "Gabriel Flores Gill",
+        "Matthew Curtis",
+        "Michael Croissant"
+      ],
+      "picture": "assets/img/team/alumni/2024.jpg"
+    },
+    "2023": {
+      "students": [
+        "William Lu",
+        "Axel Fontaine",
+        "Arnav Joshi",
+        "Teymur Hajiyev",
+        "Eric Schwaller",
+        "Benjamin \"Brody\" Smith",
+        "Yash Mahimkar",
+        "Siddhi Venkat",
+        "Jessie Lo",
+        "Kartik Rai",
+        "Kayla Lee"
+      ],
+      "picture": "assets/img/team/alumni/2023.jpg"
+    },
+    "2022": {
+      "students": [
+        "Silas Austria",
+        "Connor Bremner",
+        "Shlok Chauhan",
+        "Seohyeon Lee",
+        "Ivanie Leslie",
+        "Michael Mohn",
+        "Nirvrta Rajeeva",
+        "Aaryan Sagar",
+        "Leonidas Varveropoulos",
+        "Timothy Wong"
+      ],
+      "picture": "assets/img/team/alumni/2022.jpg"
+    },
+    "2021": {
+      "students": [
+        "Enaya Baig",
+        "Will Betts",
+        "Arshon Bozorgi",
+        "Lucas Cai",
+        "Colten Boyles",
+        "Mateo Cannata",
+        "William Duong",
+        "Christia Ellerman",
+        "Ella Greetis",
+        "Cameron Higginbotham",
+        "Jayden Kam",
+        "Cassandra Kintzele",
+        "Nathan Lee",
+        "Sebastian Martinez",
+        "Kyna McGill",
+        "Anton Nguyen",
+        "Donovan Nichols",
+        "Joshua Pack",
+        "Isaac Prieto",
+        "Sasha Robinson",
+        "Cullen Settle",
+        "Emma Smith",
+        "Natalie Wang",
+        "Daniel Yang"
+      ],
+      "picture": "assets/img/team/alumni/2021.jpg"
+    },
+    "2020": {
+      "students": [
+        "Adithya Bhonsley",
+        "Heng Cai",
+        "Isabella Conti",
+        "Addie Hervey",
+        "Trey Holmes",
+        "Ayush Naidu",
+        "James Rackovan",
+        "Sabour Shaik",
+        "Alex Dial",
+        "Tejas George",
+        "Anuraag Routray",
+        "Marco Serrano"
+      ],
+      "picture": "assets/img/team/alumni/2020.jpg"
+    },
+    "2019": {
+      "students": [
+        "Ben Gibbons",
+        "Victoria Dao",
+        "Franke Tang",
+        "Matt Duong",
+        "Simon Herz",
+        "Jonathan Brandow",
+        "Valeria Heredia",
+        "Danny Perego",
+        "Ben Nguyen",
+        "Andy Hassun"
+      ],
+      "picture": "assets/img/team/alumni/2019.jpg"
+    },
+    "2018": {
+      "students": [
+        "Satvik Bacchu",
+        "Freddy Bayeh",
+        "Bailey Egan",
+        "Phillip Ely",
+        "Kate Evans",
+        "Tariq Kharsa",
+        "Will Lasater",
+        "Joseph Norman",
+        "Bella Riffle",
+        "Michael Rison",
+        "Henry Shen",
+        "Jello Thompson",
+        "Maddison Wilmont"
+      ],
+      "picture": "assets/img/team/alumni/2018.jpg"
+    },
+    "2017": {
+      "students": [
+        "Jan Felix Abellera",
+        "Meherina Khan",
+        "Dylan Martinez",
+        "Sarah Peacock",
+        "Libby Perego",
+        "Nirmit Shah",
+        "Abhishek Srinivas",
+        "Sabrina Pereira",
+        "Greg Tarnowski",
+        "Alyssa Wu"
+      ],
+      "picture": "assets/img/team/alumni/2017.jpg"
+    },
+    "2016": {
+      "students": [
+        "Matt Lowe",
+        "Chris Palowicz",
+        "Andrew Cochrane",
+        "Sophia Lee",
+        "Jack Sampson",
+        "Justin Kleiber",
+        "Alex May",
+        "John Cong",
+        "Meijee Bergbauer",
+        "Zoe Burch",
+        "Jordan Wood",
+        "Prajval Kambi",
+        "Santiago Laris",
+        "Akshat Venkat",
+        "Renzo Heredia"
+      ],
+      "picture": "assets/img/team/alumni/2016.jpg"
+    },
+    "2015": {
+      "students": [
+        "Jessica Bayeh",
+        "Dylan Bray",
+        "David Gros",
+        "Kene Ofili",
+        "Abhishek Routray",
+        "Patricio Villa",
+        "James Yoder"
+      ],
+      "picture": "assets/img/team/alumni/2015.jpg"
+    },
+    "2014": {
+      "students": [
+        "Mirza Baig",
+        "Nicholas Bergbauer",
+        "JT Earley",
+        "Johnny Goforth",
+        "Sam Hudson",
+        "Daniel Lambert",
+        "Lorin Mott",
+        "Dylan Olson",
+        "Eddie Powell",
+        "Bill Waters"
+      ],
+      "picture": "assets/img/team/alumni/2014.jpg"
+    },
+    "2013": {
+      "students": [
+        "Bianca Almazan",
+        "Ben Button-Edelson",
+        "Victor Gomez",
+        "Fraser Head",
+        "Hunter Herzfeld",
+        "Paul Lu"
+      ],
+      "picture": "assets/img/team/alumni/2013.jpg"
+    },
+    "2012": {
+      "students": [
+        "Chris Boucher",
+        "Matt Deom",
+        "Caroline Guardia",
+        "Rob Jaska",
+        "Marc Outlaw",
+        "Elizabeth Waters",
+        "Megan Wood"
+      ],
+      "picture": "assets/img/team/alumni/2012.jpg"
+    },
+    "2011": {
+      "students": [
+        "Kyle Balden",
+        "Alyssa Bays",
+        "Hannah Burch",
+        "Nick Edmonds",
+        "Gavin Grant",
+        "Grace Herrmann",
+        "Sherry Ren",
+        "Zach Roach",
+        "Allie Seale",
+        "George Sinclair",
+        "Sean Treese",
+        "Austin Vaughn",
+        "Sebastian Wong",
+        "Tyler Young"
+      ],
+      "picture": "assets/img/team/alumni/2011.jpg"
+    },
+    "2010": {
+      "students": [
+        "Blake Ardrey",
+        "John Baudoin",
+        "Brannon Bowlin",
+        "Joseph Cox",
+        "Jacques Duet",
+        "Eric Gros",
+        "Dulcie Head",
+        "Ryan Henderson",
+        "Michael Jaska",
+        "Paul Jordan",
+        "Philip Meyer",
+        "Juan Ruiz",
+        "Melody Tan",
+        "Jessika White",
+        "Farjad Zaim"
+      ],
+      "picture": "assets/img/team/alumni/2010.jpg"
+    },
+    "2009": {
+      "students": [
+        "Eddie Ge",
+        "Jimmy Hughes",
+        "Rachel Reed",
+        "Curtis Roark",
+        "Christina Sparks"
+      ],
+      "picture": "assets/img/team/alumni/2009.jpg"
+    },
+    "2008": {
+      "students": [
+        "Neil Jamieson",
+        "Andrew Jennings",
+        "Kyle Jordan",
+        "Ross Meinwald",
+        "Philip Zanghi"
+      ],
+      "picture": "assets/img/team/alumni/2008.jpg"
+    },
+    "2007": {
+      "students": [
+        "Jared Bentley",
+        "Kevin Eckert",
+        "Scott Henderson",
+        "Nick Massey",
+        "David McFadden",
+        "Matthew McFadden",
+        "Stephen Reddin",
+        "Kathryn Svoboda",
+        "Jaclyn Thone",
+        "Molly Wright"
+      ],
+      "picture": "assets/img/team/alumni/2007.jpg"
+    },
+    "2006": {
+      "students": [
+        "Carolyn Glenn",
+        "Samuel Hatfield",
+        "Michael Langer",
+        "Ryan Pramik",
+        "Rob Stiles",
+        "Ifti Zaim"
+      ],
+      "picture": "assets/img/team/alumni/2006.jpg"
+    },
+    "2005": {
+      "students": [
+        "Ryan Aivalis",
+        "Shaon Barman",
+        "Chris Crowley",
+        "Jason DeCaire",
+        "Stefan Mai",
+        "Jesse Pye",
+        "Chris Schneider"
+      ],
+      "picture": "assets/img/team/alumni/2005.jpg"
+    },
+    "2004": {
+      "students": [
+        "Wylie Cameron",
+        "Zach Cook",
+        "Andrew Lynch",
+        "Lindsay Wright",
+        "Nathan Yanchak"
+      ],
+      "picture": "assets/img/team/alumni/2004.jpg"
+    },
+    "2003": {
+      "students": [
+        "Danaca Hopkins",
+        "Chris Koci",
+        "Chris W. Matcek"
+      ],
+      "picture": "assets/img/team/alumni/2003.jpg"
+    },
+    "2002": {
+      "students": [
+        "Stephan Glenn",
+        "Vishal Parikh"
+      ],
+      "picture": "assets/img/team/alumni/2002.jpg"
+    }
+  }
+}

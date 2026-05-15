@@ -1,0 +1,31 @@
+{
+  "Season Specific Buttons": [
+    {"desc": "2026 REBUILT", "image": "26-concept.png"},
+    {"desc": "2026 REBUILT 2", "image": "rebuilt-special.png"},
+    {"desc": "2025: Calypso", "image": "calypso.png"},
+    {"desc": "2024: Maestro 1", "image": "maestro-1.png"},
+    {"desc": "2024: Maestro 2", "image": "maestro-2.png"},
+    {"desc": "2023: Cassini", "image": "cassini.png"},
+    {"desc": "2022: Talos ", "image": "talos.png"},
+    {"desc": "2019 DEEP SPACE ", "image": "deep-space.png"},
+    {"desc": "2018: Pacrat Button", "image": "pacrat.jpg"}
+  ],
+  "Worlds Button": [
+    {"desc": "2022 Worlds Button", "image": "2022-worlds.png"},
+    {"desc": "2023 Worlds Button", "image": "2023-worlds.png"},
+    {"desc": "2024 Worlds Button", "image": "2024-worlds.png"}
+  ],
+  "2019 Championship": [
+    {"desc": "2019 Championship Button 1", "image": "2019-champs-1.png"},
+    {"desc": "2019 Championship Button 2", "image": "2019-champs-2.png"},
+    {"desc": "2019 Championship Button 3", "image": "2019-champs-3.png"},
+    {"desc": "2019 Championship Button 4", "image": "2019-champs-4.png"}
+  ],
+  "Miscellaneous": [
+    {"desc": "CRyptonite Logo", "image": "cool-1.jpg"},
+    {"desc": "CRyptonite Text", "image": "cool-2.png"},
+    {"desc": "2020 Button", "image": "cool-3.jpg"},
+    {"desc": "Spiked Hair", "image": "crazyhair.png"},
+    {"desc": "Teacher Appreciation", "image": "teacher.png"}
+  ]
+}

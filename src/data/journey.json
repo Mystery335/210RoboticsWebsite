@@ -1,0 +1,49 @@
+{
+  "slides": 7,
+  "journey": [
+    {
+      "year": 2001,
+      "description": "CRyptonite, formerly known as C.R.E.W, Cinco Ranch Engineering Wizards, is founded by BP Parents and their students. They go on to win the Highest Rookie Seed Award at their first event."
+    },
+    {
+      "year": 2003,
+      "description": "Team is renamed \"CRyptonite\", and begins the ongoing tradition of spiking team member's hair."
+    },
+    {
+      "year": 2009,
+      "description": "CRyptonite wins its first Blue Banner at Bayou Regional at New Orleans, LA, while winning its first of many to come Innovation in Control Awards."
+    },
+    {
+      "year": 2014,
+      "description": "CRyptonite wins its first Chairman's Award, the most prestigious award in FRC, at the Alamo Regional, along with winning the competition itself."
+    },
+    {
+      "year": 2015,
+      "description": "CRyptonite wins three regionals in one year, finishing 9th in the World, its highest ever ranking in team history. In the same year, CRyptonite successfully lobbies the Katy ISD school board to construct a 5.4 million dollar STEM Center, specifically to host the FRC teams across the district."
+    },
+    {
+      "year": 2019,
+      "description": "CRyptonite partakes in the first year of Texas Districts, winning both its District Events and finishing 4th in District Points across the state, one of only a few teams to do so thus far."
+    },
+    {
+      "year": 2021,
+      "description": "CRyptonite participates in Infinite Recharge: Game Changers during the online Covid season. Our team got to finals at the Texas Cup!"
+    },
+    {
+      "year": 2022,
+      "description": "CRyptonite had arguably its best season yet, winning its division at Texas District, and captaining Alliance 3 in the Hopper Divison at worlds. They were also ranked #10 in the world by EPA."
+    },
+    {
+      "year": 2023,
+      "description": "CRyptonite had an exceptional season, winning both the San Antonio District and TDC Apollo District Championship. The team was ranked #3 in the FIRST In Texas District with 342 points and reached the FIRST World Championship Curie Division Finals."
+    },
+    {
+      "year": 2024,
+      "description": "CRyptonite had its best World Championship run in team history, reaching semifinals in the Archimedes Division."
+    },
+    {
+      "year": 2026,
+      "description": "CRyptonite wins the Houston event and is a finalist in the Mercury division at the FiT district championship, qualifying for the World Championship!"
+    }
+  ]
+}

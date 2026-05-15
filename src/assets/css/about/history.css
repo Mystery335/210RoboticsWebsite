@@ -1,0 +1,180 @@
+.stats-section {
+  background: #1a1a1a;
+  color: white;
+  padding: 4rem 0;
+}
+.split-section {
+  background: #0f0f0f;
+  color: white;
+  padding: 4rem 0;
+}
+
+.stat-item {
+  text-align: center;
+}
+.stat-item .stat-number {
+  color: var(--teamgreen);
+  line-height: 1;
+}
+.stat-item .stat-label {
+  color: #ffffff;
+  font-size: larger;
+  margin-top: 0.25rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.sticky-col {
+  position: sticky;
+  top: 96px;
+  align-self: flex-start;
+  height: fit-content;
+}
+
+@media (max-width: 992px) {
+  .sticky-col {
+    position: static;
+    top: auto;
+    align-self: auto;
+    height: auto;
+  }
+}
+
+.history-carousel .carousel-inner img {
+  border-radius: 10px;
+}
+
+.journey {
+  color: var(--teamgreen);
+  padding: 10px 0px;
+  border-bottom: 2px solid var(--teamgreen);
+}
+
+.timeline-list .list-group-item {
+  background: transparent;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.timeline-list p {
+  color: #e6e6e6;
+}
+
+.awards-section {
+  background: #0f0f0f;
+  color: white;
+  padding: 4rem 0;
+}
+
+.awards-section .card-content-624.list-card ul {
+  margin-bottom: 1.5rem;
+}
+
+.buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+
+.button-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.button-item {
+  text-align: center;
+}
+
+.button-image-wrapper {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--teamgreen);
+  flex-shrink: 0;
+}
+
+.button-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.button-desc {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-align: center;
+  line-height: 1.3;
+  word-break: break-word;
+  max-width: 120px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .buttons-grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .button-image-wrapper {
+    width: 130px;
+    height: 130px;
+  }
+
+  .button-desc {
+    max-width: 130px;
+    font-size: 0.85rem;
+  }
+
+  .buttons-section {
+    padding: 2rem 0;
+  }
+
+  .buttons-section h2 {
+    font-size: 1.75rem;
+  }
+
+  .buttons-section > .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .buttons-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 1rem;
+  }
+
+  .button-image-wrapper {
+    width: 100px;
+    height: 100px;
+  }
+
+  .button-desc {
+    max-width: 100px;
+    font-size: 0.75rem;
+  }
+
+  .buttons-section {
+    padding: 1.5rem 0;
+  }
+
+  .buttons-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .buttons-section > .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}

@@ -1,0 +1,183 @@
+#mainCarousel {
+  height: 100vh;
+  position: relative;
+}
+
+#mainCarousel .carousel-item {
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#mainCarousel .carousel-item > img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+#mainCarousel .carousel-item.first-slide img {
+  filter: blur(6px);
+}
+
+#mainCarousel .carousel-item.first-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.logo-container img {
+  width: 500px;
+  max-width: 80vw;
+  height: auto;
+  filter: none !important;
+}
+
+.logo-container p {
+  font-family: "Lexend", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.weakness-text {
+  position: absolute;
+  top: 6.5rem;
+  left: 5rem;
+  color: var(--teamgreen);
+  opacity: 0.5;
+  font-size: 2.5rem;
+  font-weight: bold;
+  z-index: 2;
+  font-family: "Lexend", sans-serif;
+}
+
+.cryptonite-text {
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+  color: var(--teamgreen);
+  opacity: 0.5;
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: italic;
+  z-index: 2;
+  font-family: "Lexend", sans-serif;
+}
+
+#mainCarousel .carousel-control-prev,
+#mainCarousel .carousel-control-next {
+  width: 5%;
+}
+
+#mainCarousel .carousel-indicators {
+  bottom: 2rem;
+}
+
+.who-we-are-section,
+.where-we-work-section {
+  padding: 4rem 0;
+  color: white;
+}
+
+.who-we-are-section.light {
+  background: #1a1a1a;
+}
+
+.where-we-work-section.light {
+  background: #1a1a1a;
+}
+
+.where-we-work-section.dark {
+  background: #0f0f0f;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--teamgreen);
+  margin-bottom: 2rem;
+  font-family: "Lexend", sans-serif;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #e6e6e6;
+  font-family: "Lexend", sans-serif;
+}
+
+.section-text:last-child {
+  margin-bottom: 0;
+}
+
+.who-we-are-section .row.g-3 {
+  align-items: center;
+  justify-content: center;
+}
+
+.who-we-are-section .row.g-3 .col-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.who-we-are-section .row.g-3 img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+#rscCarousel {
+  width: 100%;
+}
+
+#rscCarousel .carousel-inner {
+  border-radius: 10px;
+  overflow: hidden;
+  height: 300px;
+}
+
+#rscCarousel .carousel-item {
+  position: relative;
+  height: 300px;
+}
+
+#rscCarousel .carousel-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .section-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .section-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #rscCarousel .carousel-inner,
+  #rscCarousel .carousel-item,
+  #rscCarousel .carousel-item img {
+    height: 250px;
+  }
+}

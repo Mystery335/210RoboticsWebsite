@@ -1,0 +1,117 @@
+html {
+  scroll-behavior: auto !important;
+}
+
+.grade-groups {
+  margin-top: 2rem;
+}
+.grade-groups .col-lg-3 {
+  padding: calc(var(--gap) / 2);
+}
+
+.grade-card {
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--bordergreen);
+  border-radius: 15px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  height: 100%;
+  margin-bottom: 2rem;
+}
+.grade-card h3 {
+  color: var(--teamgreen);
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--bordergreen);
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.student-list li {
+  padding: 0.2rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.student-list li:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.student-list li:last-child {
+  padding-bottom: 0;
+}
+
+.mentors-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gap);
+}
+
+@media (max-width: 768px) {
+  .mentors-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .mentors-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .mentors-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mentor-card {
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid var(--bordergreen);
+  border-radius: 15px;
+  padding: 1rem;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.mentor-card h4 {
+  color: var(--teamgreen);
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.mentor-card h4 small {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #ccc;
+  margin-top: 0.25rem;
+}
+
+.alumni-grid {
+  margin-top: 2rem;
+}
+.alumni-grid .col-lg-4 {
+  padding: calc(var(--gap) / 2);
+}

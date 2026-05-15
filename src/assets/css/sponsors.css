@@ -1,0 +1,150 @@
+.impact-section {
+  padding: 5rem 0;
+  background: #0f0f0f;
+  color: white;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--teamgreen);
+  font-family: "Lexend", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.impact-subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--teamgreen);
+  font-family: "Lexend", sans-serif;
+}
+
+.impact-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #e6e6e6;
+  font-family: "Lexend", sans-serif;
+}
+
+.impact-image-container {
+  text-align: center;
+}
+
+.impact-image-container img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid var(--bordergreen);
+}
+
+@media (max-width: 992px) {
+  .carousel-text p {
+    font-size: 1.2rem;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .impact-subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .impact-text {
+    text-align: center;
+  }
+
+  .impact-section {
+    padding: 3rem 0;
+  }
+}
+
+.sponsors-grid-section {
+  padding: 5rem 0;
+  background: #1a1a1a;
+}
+
+.sponsors-grid-section .section-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--teamgreen);
+  font-family: "Lexend", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+}
+
+.sponsors-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem 0;
+  justify-content: center;
+}
+
+.sponsor-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 120px;
+  background: white;
+  border-radius: 10px;
+  padding: 0.25rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.sponsor-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sponsor-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transition: filter 0.3s ease;
+  user-select: none;
+}
+
+@media (max-width: 992px) {
+  .sponsors-grid-section {
+    padding: 3rem 0;
+  }
+
+  .sponsors-grid-section .section-title {
+    font-size: 2.5rem;
+  }
+
+  .sponsors-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .sponsor-logo {
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sponsors-grid-section .section-title {
+    font-size: 2rem;
+  }
+
+  .sponsors-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+  }
+
+  .sponsor-logo {
+    height: 80px;
+  }
+}

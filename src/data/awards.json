@@ -1,0 +1,410 @@
+{
+  "2026": [
+    {
+      "title": "FIT District Belton Event",
+      "awards": ["Creativity Award"]
+    },
+    {
+      "title": "FIT District Houston Event",
+      "awards": ["District Event Winner", "Autonomous Award", "District Championship FIRST Leadership Award Semi-Finalist: Chamika U"]
+    },
+    {
+      "title": "FiT District Championship",
+      "awards": ["District Championship Finalist"]
+    },
+    {
+      "title": "FIRST World Championship",
+      "awards": ["Daly Division Competitor"]
+    }
+  ],
+  "2025": [
+    {
+      "title": "FIT District Tomball Event",
+      "awards": ["District Event Finalist, Autonomous Award"]
+    },
+    {
+      "title": "FIT District Manor Event",
+      "awards": ["Excellence in Engineering Award", "Dean's List Semi-Finalist: Aryan C"]
+    },
+    {
+      "title": "FiT District Championship",
+      "awards": ["Mercury Division District Championship Finalist"]
+    },
+    {
+      "title": "FIRST World Championship",
+      "awards": ["Newton Division Competitor"]
+    }
+  ],
+  "2024": [
+    {
+      "title": "FIT District Katy Event",
+      "awards": ["District Event Finalist, Alliance Captain"]
+    },
+    {
+      "title": "FIT District San Antonio Event",
+      "awards": ["Event Winner, Judges' Award"]
+    },
+    {
+      "title": "FiT District Championship",
+      "awards": ["Apollo Division Champion, Innovation in Control Award"]
+    },
+    {
+      "title": "FIRST World Championship",
+      "awards": ["Curie Division Championship Finalist"]
+    }
+  ],
+  "2023": [
+    {
+      "title": "FiT Waco Event",
+      "awards": ["Event Champion, 5th Alliance Captain", "Innovation in Control Award"]
+    },
+    {
+      "title": "FiT Houston Event",
+      "awards": ["Event Semifinalist, Innovation in Control Award"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["Archimedes Division Semifinalist, 5th Alliance Captain"]
+    },
+    {
+      "title": "FiT District Championship",
+      "awards": ["Mercury Division Semifinalist, 2nd Alliance Captain, Autonomous Award"]
+    }
+  ],
+  "2022": [
+    {
+      "title": "FiT Waco Event",
+      "awards": ["Event Semifinalist, Alliance Captain", "Innovation in Control Award, Dean's List Semifinalist: Peyton Drake"]
+    },
+    {
+      "title": "FiT Pasadena Event",
+      "awards": ["Event Champions, Alliance Captain, Autonomous Award"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["Hopper Division Quarterfinalists, Excellence in Engineering Award"]
+    },
+    {
+      "title": "FiT District Championship",
+      "awards": ["Mercury Division Champions, UIL Runner Up, Autonomous Award"]
+    }
+  ],
+  "2021": [
+    {
+      "title": "Texas Cup",
+      "awards": ["UIL Runner Up"]
+    },
+    {
+      "title": "Iron Group Challenge",
+      "awards": ["Event Finalist, Excellence in Engineering Award"]
+    },
+    {
+      "title": "Neon Group Challenge",
+      "awards": ["Engineering Design Award"]
+    }
+  ],
+  "2020": [
+    {
+      "title": "FiT Dripping Springs Event",
+      "awards": ["Event Finalist, Alliance Captain", "Innovation in Control Award"]
+    },
+    {
+      "title": "FiT Houston Event",
+      "awards": ["FRC Dean's List Semifinalist: Daniel Yang, Kyna McGill", "Woodie Flowers Nominee: David Edelson"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["FRC Dean's List Winner: Kyna McGill"]
+    },
+    {
+      "title": "FiT District Championship",
+      "awards": ["FRC Dean's List Finalist: Kyna McGill"]
+    }
+  ],
+  "2019": [
+    {
+      "title": "FiT Austin District Event",
+      "awards": ["Event Winner, Entrepreneurship Award, Safety Award"]
+    },
+    {
+      "title": "FiT Channelview District Event",
+      "awards": ["Event Winner", "Autonomous Award"]
+    },
+    {
+      "title": "Colorado Regional",
+      "awards": ["Regional Semifinalist", "Innovation in Control Award"]
+    },
+    {
+      "title": "Offseason events",
+      "awards": ["Quarterfinalist, Texas Robot Invitational, The Remix"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["Quarterfinalists, Newton Division", "8th Seed First Pick"]
+    },
+    {
+      "title": "FiT District Championship",
+      "awards": ["Event Quarterfinalist", "Innovation in Control Award"]
+    }
+  ],
+  "2018": [
+    {
+      "title": "San Diego Regional",
+      "awards": ["Regional Semifinalist", "Imagery Award"]
+    },
+    {
+      "title": "El Paso Regional",
+      "awards": ["Regional Winner", "Excellence in Engineering Award"]
+    },
+    {
+      "title": "Lone Star South Regional",
+      "awards": ["Regional Winner", "Innovation in Control Award"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["Semifinalists, Newton Division 6th Seed Alliance Captain"]
+    },
+    {
+      "title": "Offseason events",
+      "awards": ["Semifinalist, Texas UIL State Championship", "Finalist, Texas Robot Invitational", "Indiana Robotics Invitational"]
+    }
+  ],
+  "2017": [
+    {
+      "title": "Hub City Regional",
+      "awards": ["Regional Chairman's Award", "Regional Semifinalist", "Industrial Safety Award"]
+    },
+    {
+      "title": "Greater Kansas City Regional",
+      "awards": ["Regional Winner"]
+    },
+    {
+      "title": "Lone Star North Regional",
+      "awards": ["Regional Semifinalist", "Innovation in Control Award"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["Quarterfinalists, Roebling Division"]
+    },
+    {
+      "title": "Offseason events",
+      "awards": ["Quarterfinalist, Texas UIL State Championship", "Quarterfinalist, Texas Robot Invitational", "Semifinalist, Texas Robot Roundup", "Finalist, The Remix"]
+    }
+  ],
+  "2016": [
+    {
+      "title": "Alamo Regional",
+      "awards": ["Regional Finalist 4th Seed"]
+    },
+    {
+      "title": "Rocket City Regional",
+      "awards": ["Regional Semifinalist 7th Seed"]
+    },
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Regional Semifinalist", "Innovation in Control Award", "Industrial Safety Award"]
+    },
+    {
+      "title": "Offseason events",
+      "awards": ["Semifinalist, Texas Robot Invitational", "Indiana Robotics Invitational", "Semifinalist, TRR", "UIL State Championship"]
+    }
+  ],
+  "2015": [
+    {
+      "title": "Dallas Regional",
+      "awards": ["Regional Winner", "Imagery Award in Honor of Jack Kamen"]
+    },
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Regional Winner", "Innovation and Control Award by Rockwell Automation", "Industrial Design Award by General Motors", "FIRST Dean's List Finalist"]
+    },
+    {
+      "title": "Utah Regional",
+      "awards": ["Regional Winner", "Quality Award by Motorola"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["Quarterfinalists, Tesla Division 4th Seed"]
+    },
+    {
+      "title": "Offseason events",
+      "awards": ["Winners, Texas Robot Invitational", "Winner, Houston Robot Remix", "Winners, Texas Robot Roundup"]
+    }
+  ],
+  "2014": [
+    {
+      "title": "Alamo Regional",
+      "awards": ["Chairman's Award", "1st Seed Regional Winner"]
+    },
+    {
+      "title": "Orlando Regional",
+      "awards": ["Regional Quarterfinalist", "Innovation in Control Award"]
+    },
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Regional Finalist", "Innovation in Control Award", "Industrial Safety Award", "FIRST Dean's List Finalist - David Gros"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["Quarterfinalist, Curie Division 8th Seed Alliance Captain", "Industrial Safety Award"]
+    },
+    {
+      "title": "Offseason events",
+      "awards": ["Quarterfinalist, IRI", "Winner, Texas Robot Invitational", "Winner, Texas Robot Roundup", "Winner, Houston Robot Remix"]
+    }
+  ],
+  "2013": [
+    {
+      "title": "Alamo Regional",
+      "awards": ["Innovation in Control Award", "Regional Semifinalist"]
+    },
+    {
+      "title": "Peachtree Regional",
+      "awards": ["1st Seed", "Innovation in Control Award", "Regional Semifinalist"]
+    },
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Regional Quarterfinalist"]
+    },
+    {
+      "title": "Offseason events",
+      "awards": ["Quarterfinalist, IRI", "Winner, Texas Robot Roundup", "Finalist, Houston Robot Remix"]
+    }
+  ],
+  "2012": [
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Industrial Design Award", "FIRST Dean's List Finalist: Elizabeth Waters", "Regional Finalist"]
+    },
+    {
+      "title": "Bayou Regional",
+      "awards": ["Regional Winner", "Industrial Safety Award", "Innovation in Control Award", "Quality Award", "Excellence in Engineering Award"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["Semifinalist, Curie Division"]
+    },
+    {
+      "title": "Offseason events",
+      "awards": ["Semifinalist, IRI", "Winner, Texas Robot Roundup", "Winner, Houston Robot Remix"]
+    }
+  ],
+  "2011": [
+    {
+      "title": "Colorado Regional",
+      "awards": ["Regional Winner", "Industrial Design Award", "Industrial Safety Award"]
+    },
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Engineering Excellence Award", "Regional Semifinalist"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["15th Seed, Newton Division"]
+    }
+  ],
+  "2010": [
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Engineering Inspiration Award", "Industrial Safety Award", "Regional Finalist"]
+    },
+    {
+      "title": "St. Louis Regional",
+      "awards": ["Excellence in Animation Design Award", "Gracious Professionalism Award", "Industrial Safety Award"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["Quarterfinalist, Newton Division"]
+    }
+  ],
+  "2009": [
+    {
+      "title": "Bayou Regional",
+      "awards": ["Regional Winner", "Imagery Award"]
+    },
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Innovation in Control Award", "Industrial Safety Award", "Regional Finalist"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["Quarterfinalist, Archimedes Division"]
+    }
+  ],
+  "2008": [
+    {
+      "title": "Arizona Regional",
+      "awards": ["Imagery Award"]
+    },
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Imagery Award", "Regional Semifinalist"]
+    }
+  ],
+  "2007": [
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Imagery Award"]
+    },
+    {
+      "title": "Silicon Valley Regional",
+      "awards": ["Regional Quarterfinalist"]
+    }
+  ],
+  "2006": [
+    {
+      "title": "Chesapeake Regional",
+      "awards": ["Regional Quarterfinalist"]
+    },
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Imagery Award", "Regional Quarterfinalist"]
+    }
+  ],
+  "2005": [
+    {
+      "title": "Phoenix Regional",
+      "awards": ["Judge's Award", "Safety Award", "Regional Quarterfinalist"]
+    },
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Regional Semifinalist"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["24th Seed, Archimedes Division"]
+    }
+  ],
+  "2004": [
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Regional Quarterfinalist"]
+    }
+  ],
+  "2003": [
+    {
+      "title": "Phoenix Regional",
+      "awards": ["Delphi Technology Award", "Regional Quarterfinalist"]
+    },
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Delphi Technology Award", "Regional Quarterfinalist"]
+    },
+    {
+      "title": "FIRST Championship",
+      "awards": ["17th Seed, Galileo Division"]
+    }
+  ],
+  "2002": [
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Spirit Award", "Regional Quarterfinalist"]
+    }
+  ],
+  "2001": [
+    {
+      "title": "Lone Star Regional",
+      "awards": ["Rookie Award"]
+    }
+  ]
+}

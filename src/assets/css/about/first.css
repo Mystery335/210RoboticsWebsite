@@ -1,0 +1,639 @@
+.first-section {
+  background: #1a1a1a;
+  color: white;
+  padding: 4rem 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.first-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap);
+  width: 100%;
+}
+
+.first-section .row {
+  margin-bottom: var(--gap);
+  --bs-gutter-x: var(--gap);
+  --bs-gutter-y: var(--gap);
+}
+
+.first-section .row:last-child {
+  margin-bottom: 0;
+}
+
+.first-section .mt-4 {
+  margin-top: var(--gap) !important;
+}
+
+.grid-item {
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--teamgreen);
+  border-radius: 15px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  height: 100%;
+}
+
+.robot-image {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.robot-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid var(--teamgreen);
+}
+
+.first-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.first-description strong {
+  color: var(--teamgreen);
+}
+
+.founder-images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.founder {
+  text-align: center;
+  max-width: 150px;
+}
+
+.founder img {
+  width: 100px;
+  height: 140px;
+  border-radius: 8px;
+  border: 3px solid var(--teamgreen);
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.founder p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--teamgreen);
+}
+
+.cryptonite-item {
+  background: rgba(40, 167, 69, 0.1);
+  border: 2px solid var(--teamgreen);
+  text-align: center;
+  border-radius: 15px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.cryptonite-description p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.cryptonite-description strong {
+  color: var(--teamgreen);
+  font-weight: bold;
+}
+
+.program-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.program-item h3 {
+  color: white;
+}
+
+.program-item p {
+  color: white;
+  font-size: 1rem;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.lego {
+  background: #f44336;
+  border: 5px solid #b71c1c;
+}
+
+.tech {
+  background: #ff9800;
+  border: 5px solid #e65100;
+}
+
+.robotics {
+  background: #2196f3;
+  border: 5px solid #0d47a1;
+}
+
+.frc-subsection {
+  margin-top: 6rem;
+  width: 100%;
+}
+
+.frc-banner {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.frc-banner::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--teamgreen);
+  z-index: 1;
+}
+
+.frc-layout {
+  width: 100%;
+}
+
+.frc-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  gap: var(--gap);
+  margin: 2rem 0;
+  width: 100%;
+  min-height: 600px;
+}
+
+.frc-text-top {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.frc-image-left {
+  grid-column: 1;
+  grid-row: 2 / 4;
+  height: 100%;
+}
+
+.frc-image-middle {
+  grid-column: 2;
+  grid-row: 2;
+  height: 100%;
+}
+
+.frc-image-right {
+  grid-column: 3;
+  grid-row: 2 / 4;
+  height: 100%;
+}
+
+.frc-text-bottom {
+  grid-column: 2;
+  grid-row: 3;
+  height: 100%;
+}
+
+.frc-text-top,
+.frc-text-bottom {
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--teamgreen);
+  border-radius: 15px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frc-text-top p,
+.frc-text-bottom p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.frc-image-left,
+.frc-image-middle,
+.frc-image-right {
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid var(--teamgreen);
+}
+
+.frc-image-left img,
+.frc-image-middle img,
+.frc-image-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.seasons-subsection {
+  margin-top: 6rem;
+  width: 100%;
+}
+
+.seasons-banner {
+  text-align: center;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.seasons-banner::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--teamgreen);
+  z-index: 1;
+}
+
+.seasons-row {
+  margin-bottom: var(--gap);
+  align-items: stretch;
+  min-height: auto;
+}
+
+.seasons-row:last-child {
+  margin-bottom: 0;
+}
+
+.seasons-image {
+  padding-right: var(--gap);
+  display: flex;
+  align-items: stretch;
+  padding-left: 0;
+}
+
+.seasons-row-reverse .seasons-image {
+  padding-right: 0;
+  padding-left: var(--gap);
+}
+
+.seasons-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid var(--teamgreen);
+  transition: transform 0.3s ease;
+}
+
+.seasons-text {
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--teamgreen);
+  border-radius: 15px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  height: auto;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.seasons-text p {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.competitions-subsection {
+  margin-top: 6rem;
+  width: 100%;
+}
+
+.competitions-banner {
+  text-align: center;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.competitions-banner::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--teamgreen);
+  z-index: 1;
+}
+
+.competitions-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap);
+  margin: 2rem 0;
+  width: 100%;
+  align-items: stretch;
+}
+
+.competitions-info {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: var(--gap);
+  height: fit-content;
+}
+
+.competitions-right-column {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: var(--gap);
+  height: 100%;
+  overflow: hidden;
+}
+
+.more-than-robots-header {
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--teamgreen);
+  border-radius: 15px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  text-align: center;
+  grid-row: 1;
+}
+
+.more-than-robots-header p {
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.more-than-robots-header a {
+  color: var(--teamgreen);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.competition-info-item {
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--teamgreen);
+  border-radius: 15px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.competition-info-item p {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.competitions-awards {
+  display: flex;
+  grid-row: 2;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.awards-container {
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--teamgreen);
+  border-radius: 15px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.awards-title {
+  margin-bottom: 1rem;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.awards-intro {
+  margin-bottom: 1rem;
+  flex-shrink: 0;
+}
+
+.awards-intro p {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.awards-intro a {
+  color: var(--teamgreen);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.accordion {
+  flex: 1;
+  overflow-y: auto;
+  padding: 4px;
+  min-height: 0;
+}
+
+.accordion::-webkit-scrollbar {
+  width: 6px;
+}
+
+.accordion::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+}
+
+.accordion::-webkit-scrollbar-thumb {
+  background: var(--teamgreen);
+  border-radius: 3px;
+}
+
+.accordion-item {
+  background: transparent;
+  border: 1px solid rgba(40, 167, 69, 0.3);
+  margin-bottom: 0.5rem;
+  border-radius: 8px !important;
+  flex-shrink: 0;
+}
+
+#awardsAccordion {
+  overflow-y: auto !important;
+  max-height: 100% !important;
+}
+
+.accordion-button {
+  background: rgba(40, 167, 69, 0.1);
+  color: var(--teamgreen);
+  font-weight: bold;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 8px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background: rgba(40, 167, 69, 0.2);
+  color: var(--teamgreen);
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+  border-color: var(--teamgreen);
+}
+
+.accordion-button::after {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(79%) saturate(2476%)
+    hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+.accordion-body {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  border-top: 1px solid rgba(40, 167, 69, 0.3);
+}
+
+@media (max-width: 768px) {
+  .first-content-row {
+    flex-direction: column;
+  }
+
+  .founder-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .founder {
+    margin-bottom: 2rem;
+  }
+
+  .first-programs {
+    flex-direction: column;
+  }
+
+  .program-item {
+    margin-bottom: 1rem;
+  }
+
+  .frc-main-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+  }
+
+  .frc-text-top {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .frc-image-left {
+    grid-column: 1;
+    grid-row: 2;
+    height: 200px;
+  }
+
+  .frc-image-middle {
+    grid-column: 1;
+    grid-row: 3;
+    height: 200px;
+  }
+
+  .frc-image-right {
+    grid-column: 1;
+    grid-row: 4;
+    height: 200px;
+  }
+
+  .frc-text-bottom {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .seasons-row {
+    flex-direction: column;
+    margin-bottom: var(--gap);
+    min-height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .seasons-image,
+  .seasons-row-reverse .seasons-image {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .seasons-image img {
+    height: 200px;
+  }
+
+  .seasons-text {
+    height: auto;
+    min-height: auto;
+  }
+
+  .competitions-main-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .competitions-info {
+    grid-template-rows: auto auto auto;
+    grid-row: 1;
+  }
+
+  .more-than-robots-header {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .competitions-awards {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .awards-container {
+    height: 400px;
+  }
+
+  .accordion-button {
+    font-size: 0.85rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .accordion-body {
+    font-size: 0.85rem;
+    padding: 1rem;
+  }
+}
