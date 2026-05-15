@@ -6,13 +6,12 @@ import Footer from '@/componenets/Footer'
 import Home from '@/pages/Home'
 import Team from '@/pages/Team'
 import Sponsors from '@/pages/Sponsors'
-import Outreach from '@/pages/Outreach'
-import Headlines from '@/pages/Headlines'
-import Robots from '@/pages/Robots'
+import RoboRowdy from '@/pages/RoboRowdy'
 import RobotDetail from '@/pages/RobotDetail'
 import About from '@/pages/About'
-import First from '@/pages/About/First'
-import History from '@/pages/About/History'
+import VEXU from '@/pages/About/VexU'
+import Contact from '@/pages/Contact'
+import Donate from '@/pages/Donate'
 import NotFound from '@/pages/NotFound'
 
 function App() {
@@ -74,13 +73,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
         <Route path="/sponsors" element={<Sponsors />} /> 
-        <Route path="/outreach" element={<Outreach />} />
-        <Route path="/headlines" element={<Headlines />} />
-        <Route path="/robots" element={<Robots />} />
+        <Route path="/RoboRowdy" element={<RoboRowdy />} />
         <Route path="/robots/:year" element={<RobotDetail />} />
         <Route path="/about" element={<About />} />
-        <Route path="/about/first" element={<First />} />
-        <Route path="/about/history" element={<History />} />
+        <Route path="/about/vexu" element={<VEXU />} />
+        <Route path="/donate" element={<Donate />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
