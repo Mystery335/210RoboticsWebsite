@@ -13,42 +13,19 @@ const RoboRowdy = () => {
           Your browser does not support the video tag.
         </video>
         <div className="title-banner">
-          <h1>ROBOTS</h1>
+          <h1>RoboRowdy</h1>
         </div>
       </div>
 
       <section className="carousel-section">
         <div className="container">
           <div className="section-header">
-            <h2>OUR ROBOTS</h2>
+            <h2>What Is It?</h2>
           </div>
         </div>
         <div className="container">
           <div className="robots-list">
-            {years.map((year, index) => {
-              const robot = robotsData[year]
-              const coverImage = `../assets/img/robots/${year}/cover/cover1.png`
-              
-              return (
-                <div key={year}>
-                  <Link to={`/robots/${year}`} className="robot-list-item-link">
-                    <div className="robot-list-item">
-                      <img 
-                        src={coverImage} 
-                        alt={`${year} ${robot.robotName}`}
-                        className="robot-list-image"
-                      />
-                      <div className="robot-list-content">
-                        <h2>{year}: {robot.robotName}</h2>
-                        <p>{robot.robotDescription}</p>
-                        <span className="read-more">Read More</span>
-                      </div>
-                    </div>
-                  </Link>
-                  {index < years.length - 1 && <hr className="robot-divider" />}
-                </div>
-              )
-            })}
+            <p>RoboRowdy is an autonomous robot with the purpose of improving sustainability in 3D Print Farms. </p>
           </div>
         </div>
       </section>

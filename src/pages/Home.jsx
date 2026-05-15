@@ -102,7 +102,7 @@ const Home = () => {
             <img src="assets/img/index/main/img1.jpg" alt="Team Cryptonite" />
 
             <div className="logo-container">
-              <img src="assets/img/210-Robotics-Transparent-Banner.png" alt="Cryptonite Logo" />
+              <img src="assets/img/210-Robotics-Transparent-Banner - Siemens.png" alt="Cryptonite Logo" />
               <p>210 Robotics; Multidisciplinary team from UT San Antonio</p>
             </div>
           </div>
