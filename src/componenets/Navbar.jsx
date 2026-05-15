@@ -69,32 +69,6 @@ const Navbar = ({ tinted = false }) => {
                 <div className="nav-text">Team</div>
               </Link>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://drive.google.com/drive/folders/1sjkzWhyKY7iMicSTPg6yCTiit4jftolw?usp=sharing">
-                <div className="nav-text">Trainings</div>
-              </a>
-            </li>
-          </ul>
-          <ul className="navbar-nav navbar-nav-icons ms-auto">
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                href="https://calendar.google.com/calendar/embed?src=info%40team624.org&ctz=America%2FChicago"
-              >
-                <div className="nav-text">
-                  <i className="fas fa-calendar-alt" aria-hidden="true"></i>
-                  <div className="nav-icon-text ms-2">Calendar</div>
-                </div>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://gallery.team624.org/">
-                <div className="nav-text">
-                  <i className="fas fa-images" aria-hidden="true"></i>
-                  <div className="nav-icon-text ms-2">Gallery</div>
-                </div>
-              </a>
-            </li>
           </ul>
         </div>
       </div>
