@@ -47,6 +47,7 @@
   max-width: 80vw;
   height: auto;
   filter: none !important;
+  transform: translateX(60px) translateY(45px);
 }
 
 .logo-container p {
