@@ -6,23 +6,23 @@ const Footer = () => {
           <div className="col-md-4">
             <p className="mb-2">
               <i className="fas fa-envelope me-2"></i>
-              <a href="mailto:info@team624.org">info@team624.org</a>
+              <a href="mailto:admin@210robotics.com">admin@210robotics.com</a>
             </p>
             <p className="mb-0">
               <i className="fas fa-map-marker-alt me-2"></i>
-              Cinco Ranch High School<br />
-              <span>23440 Cinco Ranch Blvd</span><br />
-              <span>Katy, TX 77494</span>
+              UT San Antonio<br />
+              <span>1 UTSA Circle</span><br />
+              <span>San Antonio, TX 78249</span>
             </p>
             <div className="social-links mt-3">
-              <a href="https://www.instagram.com/frcteam624/" className="text-light text-decoration-none me-2">
+              <a href="https://www.instagram.com/210_robotics/" className="text-light text-decoration-none me-2">
                 <i className="fab fa-instagram fa-2x"></i>
               </a>
-              <a href="https://www.youtube.com/@CRyptoniteRobotics" className="text-light text-decoration-none me-2">
-                <i className="fab fa-youtube fa-2x"></i>
+              <a href="https://www.linkedin.com/company/210-robotics/" className="text-light text-decoration-none me-2">
+                <i className="fab fa-linkedin fa-2x"></i>
               </a>
-              <a href="https://www.facebook.com/CRyptoniteRobotics/" className="text-light text-decoration-none">
-                <i className="fab fa-facebook fa-2x"></i>
+              <a href="https://github.com/Mystery335/210Robotics_Website" className="text-light text-decoration-none me-2">
+                <i className="fab fa-github fa-2x"></i>
               </a>
             </div>
           </div>
@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-12 text-center">
             <p className="mb-0">
-              &copy; 2025 Cryptonite Robotics. All rights reserved.
+              &copy; 2026 210 Robotics. All rights reserved.
             </p>
           </div>
         </div>
