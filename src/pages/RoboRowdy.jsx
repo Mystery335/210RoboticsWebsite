@@ -8,10 +8,6 @@ const RoboRowdy = () => {
   return (
     <>
       <div className="top-bg bg-75">
-        <video autoPlay muted loop playsInline>
-          <source src="../assets/img/robots/25yrs.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
         <div className="title-banner">
           <h1>RoboRowdy</h1>
         </div>
@@ -25,7 +21,11 @@ const RoboRowdy = () => {
         </div>
         <div className="container">
           <div className="robots-list">
-            <p>RoboRowdy is an autonomous robot with the purpose of improving sustainability in 3D Print Farms. </p>
+            <p>RoboRowdy is an autonomous robot with the purpose of improving sustainability in 3D Print Farms.
+              It removes completed prints, cleans the build plate, and restarts the print for mid to large-scale 3D print farms by removing 
+              human intervention, improving operational efficiency, reducing errors, and minimizing downtime. 
+              The increase in throughput and uptime paves the way for future advancements in additive manufacturing.
+            </p>
           </div>
         </div>
       </section>
