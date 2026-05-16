@@ -2,6 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = ({ tinted = false }) => {
+
+  const handleContact = (e) => {
+    e.preventDefault();
+    document.getElementById('footer')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <nav className={`navbar navbar-expand-lg transparent ${tinted ? 'tint' : ''}`}>
       <div className="container-fluid">
@@ -55,9 +61,9 @@ const Navbar = ({ tinted = false }) => {
                 </Link>
               </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">
-                <div className="nav-text">Contact</div>
-              </Link>
+              <div className="nav-link" onClick={handleContact} style={{ cursor: 'pointer' }}>
+                <div className='nav-text'>Contact</div>
+              </div>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about/vexu">

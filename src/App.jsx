@@ -78,10 +78,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/about/vexu" element={<VEXU />} />
         <Route path="/donate" element={<Donate />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer />
+      <Footer/>
     </>
   )
 }
