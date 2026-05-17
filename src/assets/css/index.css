@@ -98,11 +98,11 @@
 }
 
 .who-we-are-section.light {
-  background: #1a1a1a;
+  background: #444444;
 }
 
 .where-we-work-section.light {
-  background: #1a1a1a;
+  background: black;
 }
 
 .where-we-work-section.dark {
@@ -115,6 +115,10 @@
   color: var(--teamgreen);
   margin-bottom: 2rem;
   font-family: "Lexend", sans-serif;
+}
+
+h2.section-title {
+  color: #FD7803;
 }
 
 .section-text {

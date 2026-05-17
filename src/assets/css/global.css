@@ -15,7 +15,7 @@ html {
 }
 
 :root {
-  --teamgreen: #fff480;
+  --teamgreen: #fffe65;
   --bordergreen: var(--teamgreen);
   --gap: 24px;
 }
@@ -213,7 +213,7 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   color: var(--teamgreen);
   font-weight: bold;
   text-transform: uppercase;
@@ -356,7 +356,7 @@ section.light {
 
 .title-banner h1 {
   font-weight: bold;
-  color: #a0e4ff;
+  color: var(--teamgreen);
   text-transform: uppercase;
   letter-spacing: 3px;
   margin: 0;
@@ -453,3 +453,6 @@ a:hover {
   }
 }
 
+#footer {
+  background-color: #444444 !important;
+}

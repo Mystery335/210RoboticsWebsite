@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import '@/assets/css/global.css'
 import Navbar from '@/componenets/Navbar'
@@ -7,12 +7,15 @@ import Home from '@/pages/Home'
 import Team from '@/pages/Team'
 import Sponsors from '@/pages/Sponsors'
 import RoboRowdy from '@/pages/RoboRowdy'
-import VEXU from '@/pages/About/VexU'
 import Contact from '@/pages/Contact'
 import Donate from '@/pages/Donate'
 import NotFound from '@/pages/NotFound'
+import ScrollToTop from './componenets/ScrollToTop'
+
 
 function App() {
+  const [siemensMode, setSiemensMode] = useState(false);
+
   const location = useLocation()
   useEffect(() => {
     const handleScroll = () => {
@@ -66,9 +69,10 @@ function App() {
 
   return (
     <>
-      <Navbar tinted={location.pathname !== '/'} />
+      <ScrollToTop />
+      <Navbar tinted={location.pathname !== '/'} siemensMode={siemensMode} setSiemensMode={setSiemensMode} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home siemensMode={siemensMode}/>} />
         <Route path="/team" element={<Team />} />
         <Route path="/RoboRowdy" element={<RoboRowdy />} />
         <Route path="/sponsors" element={<Sponsors />} /> 

@@ -2,9 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-const Navbar = ({ tinted = false }) => {
-
-  const [siemensMode, setSiemensMode] = useState(false);
+const Navbar = ({ tinted = false, siemensMode, setSiemensMode }) => {
 
   const handleContact = (e) => {
     e.preventDefault();
@@ -18,7 +16,7 @@ const Navbar = ({ tinted = false }) => {
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img
-            src="../assets/img/210Robotics - Siemens.png"
+            src="../assets/img/210-Robotics-Transparent-Banner.png"
             alt="210 Robotics"
             style={{height: "60px"}}
           />

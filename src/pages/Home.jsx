@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import '@/assets/css/index.css'
 
-const Home = () => {
+const Home = ({siemensMode}) => {
   useEffect(() => {
     function updateNavbarForSlide() {
       const activeSlide = document.querySelector('.carousel-item.active');
@@ -99,11 +99,11 @@ const Home = () => {
 
         <div className="carousel-inner">
           <div className="carousel-item active first-slide">
-            <img src="assets/img/index/main/img1.jpg" alt="Team Cryptonite" />
+            <img src="assets/img/siemens.png" alt="Team Siemens" />
 
             <div className="logo-container">
               <img 
-                src="assets/img/210-Robotics-Transparent-Banner - Siemens.png" 
+                src={siemensMode ? 'assets/img/210-Robotics-Transparent-Banner.png' : 'assets/img/210-Robotics-Transparent-Banner - Siemens.png'}
                 alt="210 Robotics Logo" 
                 />
               <p>210 Robotics; Multidisciplinary team from UT San Antonio</p>
@@ -166,24 +166,15 @@ const Home = () => {
       </div>
 
       <section className="who-we-are-section light">
-        <div className="container">
-          <div className="row align-items-center g-4">
+        <div className="container ">
+          <div className="row align-items-center g-4 ">
             <div className="col-12 col-lg-6">
-              <div className="row g-3">
-                <div className="col-6">
+                <div className="col-12">
                   <img
-                    src="assets/img/index/katy.png"
-                    alt="Katy"
+                    src="assets/img/utsa.png"
+                    alt="UT San Antonio"
                     className="img-fluid rounded"
                   />
-                </div>
-                <div className="col-6">
-                  <img
-                    src="assets/img/index/cr.png"
-                    alt="CR"
-                    className="img-fluid rounded"
-                  />
-                </div>
               </div>
             </div>
 
@@ -205,86 +196,31 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="weakness dark" style={{padding: "2rem 0"}}>
-        <div className="container">
-          <h1 style={{textAlign: "center"}}>ENGINEERING A PATH TO OUR FUTURE</h1>
-        </div>
-      </section>
-
       <section className="where-we-work-section light">
         <div className="container">
           <div className="row align-items-center g-4">
             <div className="col-12 col-lg-6">
               <h2 className="section-title">Where We Work</h2>
               <p className="section-text">
-                Our team operates out of the KatyISD Robert R. Shaw Center for
-                STEAM. This facility provides us with our large manufacturing
-                equipment and space to work. The STEAM Center serves as our
-                meeting space for robot design.
-              </p>
-              <p className="section-text">
-                We also share this space with other FRC teams in KatyISD: 4639
-                RoboSpartans, 5427 Steel Talons, 2882 Nuts n' Boltz, 8576 Golden
-                Warrior Robotics, 6488 RoboRams, and 8370 Glow with the Flow.
+                210 Robotics operates out of The University of Texas at San Antonio, 
+                where members collaborate on robot design, engineering, programming, 
+                and technical development through competitive robotics and hands-on projects.
               </p>
             </div>
 
             <div className="col-12 col-lg-6">
-              <div
-                id="rscCarousel"
-                className="carousel slide"
-                data-bs-ride="carousel"
-                data-bs-interval="4000"
-              >
-                <div className="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#rscCarousel"
-                    data-bs-slide-to="0"
-                    className="active"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#rscCarousel"
-                    data-bs-slide-to="1"
-                  ></button>
-                </div>
-                <div className="carousel-inner rounded-3 overflow-hidden">
-                  <div className="carousel-item active">
+                <div className="rounded-3 overflow-hidden">
+                  <div className="active">
                     <img
-                      src="assets/img/index/rsc/rsc1.jpg"
+                      src="assets/img/makerspace.png"
                       className="d-block w-100"
-                      alt="RSC Image 1"
+                      alt="Makerspace Image"
                     />
                   </div>
-                  <div className="carousel-item">
-                    <img
-                      src="assets/img/index/rsc/rsc2.jpg"
-                      className="d-block w-100"
-                      alt="RSC Image 2"
-                    />
                   </div>
                 </div>
-                <button
-                  className="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#rscCarousel"
-                  data-bs-slide="prev"
-                >
-                  <span className="carousel-control-prev-icon"></span>
-                </button>
-                <button
-                  className="carousel-control-next"
-                  type="button"
-                  data-bs-target="#rscCarousel"
-                  data-bs-slide="next"
-                >
-                  <span className="carousel-control-next-icon"></span>
-                </button>
               </div>
             </div>
-          </div>
-        </div>
       </section>
     </>
   )
