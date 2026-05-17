@@ -102,7 +102,10 @@ const Home = () => {
             <img src="assets/img/index/main/img1.jpg" alt="Team Cryptonite" />
 
             <div className="logo-container">
-              <img src="assets/img/210-Robotics-Transparent-Banner.png" alt="Cryptonite Logo" />
+              <img 
+                src="assets/img/210-Robotics-Transparent-Banner - Siemens.png" 
+                alt="210 Robotics Logo" 
+                />
               <p>210 Robotics; Multidisciplinary team from UT San Antonio</p>
             </div>
           </div>
@@ -187,15 +190,15 @@ const Home = () => {
             <div className="col-12 col-lg-6">
               <h2 className="section-title">Who We Are</h2>
               <p className="section-text mb-3">
-                FRC Team CRyptonite 624 is a <i>FIRST</i> Robotics Competition
-                team composed of students from Cinco Ranch High School in Katy
-                ISD. We've been building robots since 2001, and have consistently
-                been a top team.
+                210 Robotics is an organization at The University of Texas at 
+                San Antonio competing in both Vex U and the Siemen’s Immersive Design Challenge.
               </p>
-              <h5 className="mb-1">Fun Fact</h5>
-              <p className="section-text">
-                Our team name, "CRyptonite" combines "CR" for Cinco Ranch with
-                "kryptonite"!
+              <p className="section-text mb-3">
+                This organization started Fall 2026, by a group of friends interested in Robotics.               </p>
+              <p className="section-text mb-3">
+                Our goal is to provide a space where students interested in robotics, 
+                programming, or just exploring UTSA can come together and compete in 
+                competitions, participate in socials, and learn new skills. 
               </p>
             </div>
           </div>
@@ -287,4 +290,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

@@ -7,8 +7,6 @@ import Home from '@/pages/Home'
 import Team from '@/pages/Team'
 import Sponsors from '@/pages/Sponsors'
 import RoboRowdy from '@/pages/RoboRowdy'
-import RobotDetail from '@/pages/RobotDetail'
-import About from '@/pages/About'
 import VEXU from '@/pages/About/VexU'
 import Contact from '@/pages/Contact'
 import Donate from '@/pages/Donate'
@@ -72,10 +70,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
-        <Route path="/sponsors" element={<Sponsors />} /> 
         <Route path="/RoboRowdy" element={<RoboRowdy />} />
-        <Route path="/about/vexu" element={<VEXU />} />
+        <Route path="/sponsors" element={<Sponsors />} /> 
         <Route path="/donate" element={<Donate />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer/>
