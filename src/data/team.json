@@ -1,12 +1,12 @@
 {
   "Team": {
-    "Israel Elizondo": "President",
-    "Dyshana Torres": "VP Operations",
-    "Gray Samaniego": "VP Internal Affairs",
-    "Vian Chen": "Outreach",
-    "Andrew Romo": "Finance",
-    "Roman ": "Build",
-    "Darik Prett": "Systems"
+    "Israel Elizondo": "Team Lead",
+    "Dyshana Torres": "",
+    "Gray Samaniego": "Business Lead",
+    "Vian Chen": "Programming Lead",
+    "Andrew Romo": "Mechanical Design & Fabrication Engineer",
+    "Roman ": "",
+    "Darik Prett": "Simulations Lead"
   },
   "teamMentors": [
     "Don Peterson"
