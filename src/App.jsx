@@ -74,10 +74,9 @@ function App() {
         <Route path="/sponsors" element={<Sponsors />} /> 
         <Route path="/donate" element={<Donate />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/about/vexu" element={<VEXU />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer />
+      <Footer/>
     </>
   )
 }
