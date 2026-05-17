@@ -1,12 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 const Navbar = ({ tinted = false }) => {
+
+  const [siemensMode, setSiemensMode] = useState(false);
 
   const handleContact = (e) => {
     e.preventDefault();
     document.getElementById('footer')?.scrollIntoView({ behavior: 'smooth' });
   };
+
+
 
   return (
     <nav className={`navbar navbar-expand-lg transparent ${tinted ? 'tint' : ''}`}>
@@ -45,11 +50,13 @@ const Navbar = ({ tinted = false }) => {
                 <div className="nav-text">Team</div>
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/RoboRowdy">
-                <div className="nav-text">RoboRowdy</div>
-              </Link>
-            </li>
+            {!siemensMode && (
+              <li className="nav-item">
+                <Link className="nav-link" to="/RoboRowdy">
+                  <div className="nav-text">RoboRowdy</div>
+                </Link>
+              </li>
+            )}
             <li className="nav-item">
               <Link className="nav-link" to="/sponsors">
                 <div className="nav-text">Sponsors</div>
@@ -65,9 +72,17 @@ const Navbar = ({ tinted = false }) => {
                 <div className='nav-text'>Contact</div>
               </div>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/about/vexu">
-                <div className="nav-text"><i>VEX U</i></div>
+           <li className="nav-item">
+            <Link to="/">
+              <div
+                className="nav-link"
+                onClick={() => setSiemensMode(!siemensMode)}
+                style={{ cursor: 'pointer' }}
+              >
+                <div className="nav-text">
+                  <i>{siemensMode ? 'Siemens' : 'VEX U'}</i>
+                </div>
+              </div>
               </Link>
             </li>
           </ul>

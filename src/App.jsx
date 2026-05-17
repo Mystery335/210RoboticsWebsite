@@ -74,8 +74,6 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/sponsors" element={<Sponsors />} /> 
         <Route path="/RoboRowdy" element={<RoboRowdy />} />
-        <Route path="/robots/:year" element={<RobotDetail />} />
-        <Route path="/about" element={<About />} />
         <Route path="/about/vexu" element={<VEXU />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="*" element={<NotFound />} />
