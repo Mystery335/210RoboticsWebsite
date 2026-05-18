@@ -71,6 +71,7 @@ const Team = ({siemensMode}) => {
           </div>
         </div>
       </section>
+      
   </>);
 }
 
