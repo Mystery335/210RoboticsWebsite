@@ -24,9 +24,16 @@ const Team = ({siemensMode}) => {
 
           <div className="mentors-grid">
             {Object.entries(Team).map(([name, position]) => (
-              <div className="mentor-card" key={name}>
-                <h4>{name}<br /><small>{position}</small></h4>              
-              </div>
+              <div key={name} className="mentor-wrapper">
+                <div className="mentor-card">
+                  <h4>{name}<br /><small>{position}</small></h4>
+                </div>
+                <img 
+                  src={`assets/team/${name.trim()}.jpg`} 
+                  alt={name}
+                  style={{ width: '75%', height: '75%', objectFit: 'cover',  margin: '0 auto', display: 'block', marginTop:'0.75rem'}}
+                />
+            </div>
             ))}
           </div>
         </div>

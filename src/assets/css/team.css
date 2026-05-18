@@ -110,6 +110,7 @@ html {
   align-items: center;
   justify-content: center;
   margin-bottom: 0;
+  flex-direction: column;
   height: 95px;
 }
 
