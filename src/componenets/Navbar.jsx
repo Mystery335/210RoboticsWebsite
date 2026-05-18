@@ -74,7 +74,10 @@ const Navbar = ({ tinted = false, siemensMode, setSiemensMode }) => {
             <Link to="/">
               <div
                 className="nav-link"
-                onClick={() => setSiemensMode(!siemensMode)}
+                onClick={() => {
+                  setSiemensMode(!siemensMode);
+                  window.scroll(0,0);
+                }}
                 style={{ cursor: 'pointer' }}
               >
                 <div className="nav-text">
