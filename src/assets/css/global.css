@@ -15,7 +15,7 @@ html {
 }
 
 :root {
-  --teamgreen: #fffe65;
+  --teamgreen: #fff480;
   --bordergreen: var(--teamgreen);
   --gap: 24px;
 }

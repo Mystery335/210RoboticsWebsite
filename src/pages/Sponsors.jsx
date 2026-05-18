@@ -13,16 +13,6 @@ const Sponsors = () => {
           data-bs-ride="carousel"
           data-bs-interval="3000"
         >
-          <div className="carousel-inner">
-            {Array.from({ length: numCarouselImages }).map((_, index) => (
-              <div
-                className={`carousel-item ${index === 0 ? "active" : ""}`}
-                key={index}
-              >
-                <img src={`${carouselImagesDir}sponsor${index + 1}.jpg`} alt="" />
-              </div>
-            ))}
-          </div>
         </div>
 
         <div className="title-banner">
@@ -86,7 +76,7 @@ const Sponsors = () => {
             {sponsors.map((sponsor, index) => (
               <div className="sponsor-card" key={index}>
                 <div className="sponsor-logo">
-                  <img src={`assets/img/sponsors/logos/${sponsor.logo}`} alt={sponsor.name} />
+                  <img src={`/assets/sponsors/${sponsor.logo}`} alt={sponsor.name} />
                 </div>
               </div>
             ))}

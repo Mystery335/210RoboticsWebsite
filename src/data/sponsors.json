@@ -1,6 +1,19 @@
 {
-  "carouselImagesDir": "assets/img/sponsors/_carousel/",
-  "numCarouselImages": 4,
+  "carouselImagesDir": "assets/img/sponsors/",
+  "numCarouselImages": 3,
   "sponsors": [
+    {
+      "name": "Siemens",
+      "logo": "siemens.png"
+    },
+    {
+      "name": "University of Texas at San Antonio",
+      "logo": "utsa.png"
+    },
+    {
+      "name": "Onshape",
+      "logo": "onshape.svg"
+    }
+
   ]
 }
