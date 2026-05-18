@@ -10,5 +10,15 @@
   },
   "teamMentors": [
     "Don Peterson"
-  ]
+  ],
+  "Officers": {
+    "Jacob White": "President",
+    "Josef Ybarra": "VP Operations",
+    "Dyshana Torres": "VP Internal Affairs",
+    "Kristal Cayabyab": "Outreach",
+    "Gray Samaniego": "Finance",
+    "Israel Elizondo ": "Build",
+    "Landon Smith": "Systems",
+    "Andrew Romo": "Logistics"
+  }
 }

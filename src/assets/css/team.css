@@ -72,6 +72,13 @@ html {
   transform: translateX(50%);
 }
 
+#officers{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gap);
+}
+
 @media (max-width: 768px) {
   .mentors-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -105,7 +112,7 @@ html {
 }
 
 .mentor-card h4 {
-  color: var(--teamgreen);
+  color: #FD7803;
   font-size: 1.1rem;
   font-weight: bold;
   margin: 0;

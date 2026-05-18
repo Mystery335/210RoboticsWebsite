@@ -72,7 +72,7 @@ function App() {
       <Navbar tinted={location.pathname !== '/'} siemensMode={siemensMode} setSiemensMode={setSiemensMode} />
       <Routes>
         <Route path="/" element={<Home siemensMode={siemensMode}/>} />
-        <Route path="/team" element={<Team />} />
+        <Route path="/team" element={<Team siemensMode={siemensMode}/>} />
         <Route path="/RoboRowdy" element={<RoboRowdy />} />
         <Route path="/sponsors" element={<Sponsors />} /> 
         <Route path="/donate" element={<Donate />} />
