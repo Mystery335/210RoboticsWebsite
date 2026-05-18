@@ -1,7 +1,30 @@
 import sponsorsData from "../data/sponsors.json";
 import "@/assets/css/sponsors.css";
-
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 const Sponsors = () => {
+  const formRef = useRef();
+  const [status, setStatus] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_7y6f16p",
+        "template_t6e7ptb",
+        formRef.current,
+        "LmF_XCkY4eaR4g-Ay",
+      )
+      .then(() => {
+        setStatus("success");
+        formRef.current.reset();
+      })
+      .catch(() => {
+        setStatus("error");
+      });
+  };
+
   const { carouselImagesDir, numCarouselImages, sponsors } = sponsorsData;
 
   return (
@@ -113,34 +136,49 @@ const Sponsors = () => {
       <section className="mentors-section light">
         <div className="section-header">
           <h2>Interested?</h2>
-          <div id = "request">
+          <div id="request">
             Please fill out the form below, and we will reach out to you soon!
           </div>
           <div className="p-3"></div>
+          <form ref={formRef} onSubmit={handleSubmit}>
             <input
-              name = "Name"
+              name="Name"
               type="text"
               className="sponsor-input"
               placeholder="Company Name"
+              required
             />
             <input
-              name = "Email"
-              type="text"
+              name="Email"
+              type="email"
               className="sponsor-input"
               placeholder="Contact Email"
+              required
             />
             <textarea
-              name = "Desc"
+              name="Desc"
               className="sponsor-input sponsor-textarea"
               placeholder="Additional Information"
             />
             <button type="submit" className="sponsor-btn">
               Submit
             </button>
+            <div>
+            {status === "success" && (
+              <p style={{ color: "white", marginTop: "1rem" }}>
+                Thank you for submitting your interest in sponsoring 210 Robotics! We will reach out to you soon.
+              </p>
+            )}
+            {status === "error" && (
+              <p style={{ color: "white", marginTop: "1rem" }}>
+                Something went wrong. Please try again.
+              </p>
+            )}
+            </div>
+          </form>
         </div>
       </section>
     </>
   );
 };
-
 export default Sponsors;
