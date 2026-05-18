@@ -108,9 +108,7 @@ const Home = () => {
             <div className="logo-container">
               <img
                 src={
-                  siemensMode
-                    ? "assets/img/210-Robotics-Transparent-Banner.png"
-                    : "assets/img/210-Robotics-Transparent-Banner - Siemens.png"
+                  "assets/img/210-Robotics-Transparent-Banner.png"
                 }
                 alt="210 Robotics Logo"
               />
