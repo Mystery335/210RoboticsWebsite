@@ -74,7 +74,7 @@ function App() {
       <ScrollToTop />
       <Navbar tinted={location.pathname !== '/'} siemensMode={siemensMode} setSiemensMode={setSiemensMode} />
       <Routes>
-        <Route path="/" element={<Home siemensMode={siemensMode}/>} />
+        <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team siemensMode={siemensMode}/>} />
         <Route path="/RoboRowdy" element={<RoboRowdy />} />
         <Route path="/sponsors" element={<Sponsors />} /> 

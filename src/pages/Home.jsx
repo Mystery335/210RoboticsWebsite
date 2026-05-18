@@ -2,8 +2,12 @@ import { useEffect } from 'react'
 import '@/assets/css/index.css'
 
 
-const Home = ({siemensMode}) => {
+const Home = () => {
+
   useEffect(() => {
+    
+    const mainCarousel = document.getElementById('mainCarousel');
+
     function updateNavbarForSlide() {
       const activeSlide = document.querySelector('.carousel-item.active');
       const isFirstSlide = activeSlide?.classList.contains('first-slide');
@@ -16,7 +20,6 @@ const Home = ({siemensMode}) => {
       }
     }
 
-    const mainCarousel = document.getElementById('mainCarousel');
     mainCarousel?.addEventListener('slide.bs.carousel', (e) => {
       const nextSlide = e.relatedTarget;
       const isFirstSlide = nextSlide.classList.contains('first-slide');
@@ -104,7 +107,7 @@ const Home = ({siemensMode}) => {
 
             <div className="logo-container">
               <img 
-                src={siemensMode ? 'assets/img/210-Robotics-Transparent-Banner.png' : 'assets/img/210-Robotics-Transparent-Banner - Siemens.png'}
+                src='assets/img/210-Robotics-Transparent-Banner.png'
                 alt="210 Robotics Logo" 
                 />
               <p>210 Robotics; Multidisciplinary team from UT San Antonio</p>
@@ -112,39 +115,39 @@ const Home = ({siemensMode}) => {
           </div>
 
           <div className="carousel-item">
-            <img src="assets/img/index/main/img2.jpg" alt="Team Image 2" />
+            <img src="assets/vexu/img1.jpg" alt="Team Image 1" />
           </div>
 
           <div className="carousel-item">
-            <img src="assets/img/index/main/img3.jpg" alt="Team Image 3" />
+            <img src="assets/siemens/img1.jpg" alt="Team Image 2" />
           </div>
 
           <div className="carousel-item">
-            <img src="assets/img/index/main/img4.jpg" alt="Team Image 4" />
+            <img src="assets/vexu/img2.jpg" alt="Team Image 3" />
           </div>
 
           <div className="carousel-item">
-            <img src="assets/img/index/main/img5.jpg" alt="Team Image 5" />
+            <img src="assets/siemens/img2.jpg" alt="Team Image 4" />
           </div>
 
           <div className="carousel-item">
-            <img src="assets/img/index/main/img6.jpg" alt="Team Image 6" />
+            <img src="assets/vexu/img3.jpg" alt="Team Image 5" />
           </div>
 
           <div className="carousel-item">
-            <img src="assets/img/index/main/img7.jpg" alt="Team Image 7" />
+            <img src="assets/siemens/img3.jpg" alt="Team Image 6" />
           </div>
 
           <div className="carousel-item">
-            <img src="assets/img/index/main/img8.jpg" alt="Team Image 8" />
+            <img src="assets/vexu/img4.jpg" alt="Team Image 7" />
           </div>
 
           <div className="carousel-item">
-            <img src="assets/img/index/main/img9.jpg" alt="Team Image 9" />
+            <img src="assets/vexu/img5.jpg" alt="Team Image 8" />
           </div>
 
           <div className="carousel-item">
-            <img src="assets/img/index/main/img10.jpg" alt="Team Image 10" />
+            <img src="assets/vexu/img6.jpg" alt="Team Image 9" />
           </div>
         </div>
 
