@@ -7,7 +7,6 @@ import Home from '@/pages/Home'
 import Team from '@/pages/Team'
 import Sponsors from '@/pages/Sponsors'
 import RoboRowdy from '@/pages/RoboRowdy'
-import Contact from '@/pages/Contact'
 import Donate from '@/pages/Donate'
 import NotFound from '@/pages/NotFound'
 import ScrollToTop from './componenets/ScrollToTop'
@@ -77,7 +76,6 @@ function App() {
         <Route path="/RoboRowdy" element={<RoboRowdy />} />
         <Route path="/sponsors" element={<Sponsors />} /> 
         <Route path="/donate" element={<Donate />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer/>
