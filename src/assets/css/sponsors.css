@@ -25,6 +25,7 @@
   line-height: 1.7;
   color: #e6e6e6;
   font-family: "Lexend", sans-serif;
+  text-align: left;
 }
 
 .impact-image-container {
@@ -62,7 +63,7 @@
 
 .sponsors-grid-section {
   padding: 5rem 0;
-  background: #1a1a1a;
+  background: black;
 }
 
 .sponsors-grid-section .section-title {

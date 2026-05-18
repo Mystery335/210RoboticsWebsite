@@ -20,14 +20,14 @@ const Sponsors = () => {
         </div>
       </div>
 
-      <section className="impact-section dark">
+      <section className="mentors-section light">
         <div className="container">
           <div className="section-header">
             <h2>WHY SPONSOR US</h2>
           </div>
           <div className="row justify-content-center">
             <div className="row align-items-center">
-              <div className="col-lg-8">
+              <div className="col-lg-12">
 
                 <p className="impact-text mb-4">
                   210 Robotics is a rapidly growing student organization at the University of Texas at San Antonio,
@@ -57,7 +57,7 @@ const Sponsors = () => {
                     <li>Opportunities to collaborate on projects, mentorship, and recruitment</li>
                   </ul>
                 </p>
-                <p>210 Robotics is more than a competition team—we are a community 
+                <p className="impact-text">210 Robotics is more than a competition team—we are a community 
                   dedicated to innovation, growth, and impact. With your support, 
                   we can continue to expand our reach, elevate our performance, and 
                   inspire future leaders in technology.</p>
@@ -66,8 +66,8 @@ const Sponsors = () => {
           </div>
         </div>
       </section>
-
-      <section className="sponsors-grid-section light">
+      
+      <section className="sponsors-grid-section">
         <div className="container">
           <div className="section-header">
             <h2>THANK YOU SPONSORS</h2>
@@ -83,6 +83,14 @@ const Sponsors = () => {
           </div>
         </div>
       </section>
+
+    <section className="mentors-section light">
+      <div className="section-header">
+        <h2>Interested?</h2>
+        <p>Please fill out the form below, and we will reach out to you soon!</p>
+      </div>
+    </section>
+    
     </>
   );
 };

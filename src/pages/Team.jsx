@@ -34,7 +34,7 @@ const Team = ({siemensMode}) => {
 
       <section className="mentors-section mentors-alt dark" id="mentors">
         <div className="container">
-          <div className="">
+          <div className="section-header">
             <h2>TEAM MENTOR</h2>
           </div>
 
