@@ -62,6 +62,13 @@ html {
   gap: var(--gap);
 }
 
+.team-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--gap);
+}
+
 .mentors-grid > :nth-child(5) {
   transform: translateX(50%);
 }

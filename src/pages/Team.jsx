@@ -45,7 +45,7 @@ const Team = ({siemensMode}) => {
             <h2>TEAM MENTORS</h2>
           </div>
 
-          <div className="">
+          <div className="container team-grid">
             {teamMentors.map((mentor, index) => (
               <div className="mentor-card" key={index} id="teamMentor">
                 <span>{mentor}</span>

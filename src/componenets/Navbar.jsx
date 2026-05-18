@@ -60,11 +60,6 @@ const Navbar = ({ tinted = false, siemensMode, setSiemensMode }) => {
                 <div className="nav-text">Sponsors</div>
               </Link>
             </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/donate">
-                  <div className="nav-text">Donate</div>
-                </Link>
-              </li>
             <li className="nav-item">
               <div className="nav-link" onClick={handleContact} style={{ cursor: 'pointer' }}>
                 <div className='nav-text'>Contact</div>
