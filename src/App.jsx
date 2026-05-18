@@ -14,10 +14,11 @@ import ScrollToTop from './componenets/ScrollToTop'
 
 function App() {
   const [siemensMode, setSiemensMode] = useState(false);
+    // Below changes the color scheme of the website
   document.documentElement.style.setProperty(
     '--teamgreen', 
     siemensMode ? '#FD7803' : '#fff480');
-
+    
   const location = useLocation()
   useEffect(() => {
     const handleScroll = () => {

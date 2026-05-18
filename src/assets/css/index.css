@@ -118,7 +118,7 @@
 }
 
 h2.section-title {
-  color: #FD7803;
+  color: var(--teamgreen);
 }
 
 .section-text {
