@@ -15,13 +15,16 @@ const Footer = () => {
               <span>San Antonio, TX 78249</span>
             </p>
             <div className="social-links mt-3">
-              <a href="https://www.instagram.com/210_robotics/" className="text-light text-decoration-none me-2">
+              <a href="https://discord.gg/SddubkhhE" className="text-light text-decoration-none me-2" target = "_blank">
+                <i className="fab fa-discord fa-2x"></i>
+              </a>
+              <a href="https://www.instagram.com/210_robotics/" className="text-light text-decoration-none me-2" target = "_blank">
                 <i className="fab fa-instagram fa-2x"></i>
               </a>
-              <a href="https://www.linkedin.com/company/210-robotics/" className="text-light text-decoration-none me-2">
+              <a href="https://www.linkedin.com/company/210-robotics/" className="text-light text-decoration-none me-2" target = "_blank">
                 <i className="fab fa-linkedin fa-2x"></i>
               </a>
-              <a href="https://github.com/Mystery335/210Robotics_Website" className="text-light text-decoration-none me-2">
+              <a href="https://github.com/Mystery335/210Robotics_Website" className="text-light text-decoration-none me-2" target = "_blank">
                 <i className="fab fa-github fa-2x"></i>
               </a>
             </div>

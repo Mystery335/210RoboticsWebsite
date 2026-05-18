@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import '@/assets/css/index.css'
 
+
 const Home = ({siemensMode}) => {
   useEffect(() => {
     function updateNavbarForSlide() {
