@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-const Navbar = ({ tinted = false, siemensMode, setSiemensMode }) => {
+const Navbar = ({ tinted = false}) => {
 
   const handleContact = (e) => {
     e.preventDefault();
@@ -44,11 +44,16 @@ const Navbar = ({ tinted = false, siemensMode, setSiemensMode }) => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/vexu-team">
+                <div className="nav-text">VexU Team</div>
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/team">
                 <div className="nav-text">Team</div>
               </Link>
             </li>
-            {!siemensMode && (
+            { (
               <li className="nav-item">
                 <Link className="nav-link" to="/RoboRowdy">
                   <div className="nav-text">RoboRowdy</div>
@@ -64,22 +69,6 @@ const Navbar = ({ tinted = false, siemensMode, setSiemensMode }) => {
               <div className="nav-link" onClick={handleContact} style={{ cursor: 'pointer' }}>
                 <div className='nav-text'>Contact</div>
               </div>
-            </li>
-           <li className="nav-item">
-            <Link to="/">
-              <div
-                className="nav-link"
-                onClick={() => {
-                  setSiemensMode(!siemensMode);
-                  window.scroll(0,0);
-                }}
-                style={{ cursor: 'pointer' }}
-              >
-                <div className="nav-text">
-                  <i>{siemensMode ? 'Siemens' : 'VEX U'}</i>
-                </div>
-              </div>
-              </Link>
             </li>
           </ul>
         </div>

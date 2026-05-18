@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import '@/assets/css/index.css'
 
 
-const Home = ({siemensMode}) => {
+const Home = () => {
   useEffect(() => {
     function updateNavbarForSlide() {
       const activeSlide = document.querySelector('.carousel-item.active');
@@ -104,7 +104,7 @@ const Home = ({siemensMode}) => {
 
             <div className="logo-container">
               <img 
-                src={siemensMode ? 'assets/img/210-Robotics-Transparent-Banner.png' : 'assets/img/210-Robotics-Transparent-Banner - Siemens.png'}
+                src={'assets/img/210-Robotics-Transparent-Banner.png'}
                 alt="210 Robotics Logo" 
                 />
               <p>210 Robotics; Multidisciplinary team from UT San Antonio</p>
