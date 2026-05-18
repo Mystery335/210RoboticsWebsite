@@ -112,7 +112,7 @@ html {
 }
 
 .mentor-card h4 {
-  color: #FD7803;
+  color: var(--teamgreen);
   font-size: 1.1rem;
   font-weight: bold;
   margin: 0;

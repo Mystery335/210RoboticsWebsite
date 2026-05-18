@@ -14,6 +14,9 @@ import ScrollToTop from './componenets/ScrollToTop'
 
 function App() {
   const [siemensMode, setSiemensMode] = useState(false);
+  document.documentElement.style.setProperty(
+    '--teamgreen', 
+    siemensMode ? '#FD7803' : '#fff480');
 
   const location = useLocation()
   useEffect(() => {
