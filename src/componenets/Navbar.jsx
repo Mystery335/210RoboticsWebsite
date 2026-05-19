@@ -44,13 +44,13 @@ const Navbar = ({ tinted = false}) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/vexu-team">
+              <Link className="nav-link" id ="VexUteam" to="/vexu-team">
                 <div className="nav-text">VexU Team</div>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/team">
-                <div className="nav-text">Team</div>
+              <Link className="nav-link" id="SIDCteam" to="/team">
+                <div className="nav-text">SIDC Team</div>
               </Link>
             </li>
             { (

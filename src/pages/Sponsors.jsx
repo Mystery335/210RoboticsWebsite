@@ -51,42 +51,36 @@ const Sponsors = () => {
             <div className="row align-items-center">
               <div className="col-lg-12">
                 <p className="impact-text mb-4">
-                  210 Robotics is a rapidly growing student organization at the
-                  University of Texas at San Antonio, competing in both VEX U
-                  and the Siemens Immersive Design Challenge. Founded in Fall
-                  2026 by a passionate group of students, our team is built on
-                  innovation, collaboration, and a shared drive to push the
-                  boundaries of robotics and engineering. By sponsoring 210
-                  Robotics, you are directly investing in the next generation of
-                  engineers, programmers, and problem-solvers. Our members gain
-                  hands-on experience in designing, building, and programming
-                  advanced robotic systems—skills that translate directly into
-                  the modern workforce.
+                  210 Robotics functions as an expanding student organization based at 
+                  University of Texas at San Antonio which participates in VEX U 
+                  and Siemens Immersive Design Challenge competitions. 
+                  Our team at Fall 2026 started by students who brought their 
+                  passion to create a group that focuses on robotics and 
+                  engineering innovation through teamwork. You can support the future 
+                  development of engineers and programmers who will become skilled problem-solvers by sponsoring 210 Robotics. 
+                  Our members develop practical abilities through their work on advanced robotic system design 
+                  and construction and programming which prepares them for modern career requirements.
                 </p>
 
                 <p className="impact-text">
                   Your support enables us to:
                   <ul>
                     <li>
-                      Purchase essential materials, tools, and components for
-                      robot development
+                      Buy basic resources and equipment and parts which we need for building our robots
                     </li>
-                    <li>Compete at regional and national competitions</li>
+                    <li>Participate in both regional and national competitions</li>
                     <li>
-                      Host workshops, outreach events, and collaborative
-                      learning opportunities
+                      Organize workshops and outreach activities and group learning sessions for our community
                     </li>
                     <li>
-                      Build a strong, inclusive community for students
-                      interested in STEM
+                       Establish a welcoming STEM community 
+                       which unites all students who show interest in science and technology.
                     </li>
                   </ul>
-                  In return, sponsors gain meaningful visibility and engagement
-                  opportunities, including:
+                  In return, our sponsors receive valuable marketing benefits, including the following:
                   <ul>
                     <li>
-                      Brand placement on robots, team apparel, and promotional
-                      materials
+                      Brand exposure through robot decorations and team uniforms and marketing materials
                     </li>
                     <li>
                       Recognition across our social media platforms and events
@@ -102,10 +96,10 @@ const Sponsors = () => {
                   </ul>
                 </p>
                 <p className="impact-text">
-                  210 Robotics is more than a competition team—we are a
-                  community dedicated to innovation, growth, and impact. With
-                  your support, we can continue to expand our reach, elevate our
-                  performance, and inspire future leaders in technology.
+                  210 Robotics functions as a community which extends beyond being a competitive team because we work 
+                  together to develop new ideas while expanding our knowledge and create meaningful social effects. 
+                  We will extend our operational reach and improve our performance 
+                  levels because you stand with us to support technology leadership development for upcoming generations.
                 </p>
               </div>
             </div>

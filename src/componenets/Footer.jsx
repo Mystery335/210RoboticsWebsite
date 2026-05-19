@@ -14,8 +14,7 @@ const Footer = () => {
               <a href="mailto:admin@210robotics.com">admin@210robotics.com</a>
             </p>
           </div>
-
-          <div className="col-md-6 text-end">
+          <div className="col-md-6 text-end p-2">
             <p className="mb-0">
               <i className="fas fa-map-marker-alt me-2"></i>
               UT San Antonio<br />

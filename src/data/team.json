@@ -1,11 +1,11 @@
 {
   "Team": {
     "Israel Elizondo": "Team Lead",
-    "Dyshana Torres": "",
+    "Dyshana Torres": "Video Lead",
     "Gray Samaniego": "Business Lead",
     "Vian Chen": "Programming Lead",
     "Andrew Romo": "Mechanical Design & Fabrication Engineer",
-    "Roman Benavides": "",
+    "Roman Benavides": "Build Lead",
     "Darik Pratt": "Simulations Lead"
   },
   "teamMentors": [

@@ -464,3 +464,11 @@ a:hover {
 #footer {
   background-color: #444444 !important;
 }
+
+#VexUteam{
+  white-space: nowrap;  
+}
+
+#SIDCteam{
+  white-space: nowrap;  
+}
