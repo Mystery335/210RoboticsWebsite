@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-const Navbar = ({ tinted = false}) => {
+const Navbar = ({ tinted = true }) => {
 
   const handleContact = (e) => {
     e.preventDefault();

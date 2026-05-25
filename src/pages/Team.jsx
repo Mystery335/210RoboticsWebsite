@@ -27,7 +27,7 @@ const Team = () => {
                 <img 
                   src={`assets/team/${name.trim()}.jpg`} 
                   alt={name}
-                  style={{ width: '75%', height: '75%', objectFit: 'cover',  margin: '0 auto', display: 'block', marginTop:'0.75rem'}}
+                  style={{ width: '75%', height: '70%', objectFit: 'cover',  margin: '0 auto', display: 'block', marginTop:'0.75rem'}}
                 />
             </div>
             ))}

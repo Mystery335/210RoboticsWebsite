@@ -68,7 +68,7 @@ function App() {
   return (
     <>
       <ScrollToTop />
-      <Navbar tinted={location.pathname !== "/"} />
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/vexu-team" element={<VexUTeam />} />

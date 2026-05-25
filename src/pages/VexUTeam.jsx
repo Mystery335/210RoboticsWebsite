@@ -15,7 +15,7 @@ function VexUTeam() {
 
       <section className="mentors-section light">
         <div className="container">
-          <div id="officers">
+          <div className="mentors-grid">
             {Object.entries(Officers).map(([name, position]) => (
               <div key={name} className="mentor-wrapper">
                 <div className="mentor-card">
@@ -30,7 +30,7 @@ function VexUTeam() {
                   alt={name}
                   style={{
                     width: "75%",
-                    height: "75%",
+                    height: "70%",
                     objectFit: "cover",
                     margin: "0 auto",
                     display: "block",

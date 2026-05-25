@@ -39,7 +39,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 1;
 }
 
 .logo-container img {
@@ -47,7 +47,13 @@
   max-width: 80vw;
   height: auto;
   filter: none !important;
-  transform: translateX(60px) translateY(45px);
+  transform: translateX(40px) translateY(45px);
+}
+
+@media (max-width: 768px) {
+  .logo-container img {
+    transform: translateX(10px) translateY(45px);
+  }
 }
 
 .logo-container p {
@@ -85,6 +91,7 @@
 #mainCarousel .carousel-control-prev,
 #mainCarousel .carousel-control-next {
   width: 5%;
+  z-index: 5;
 }
 
 #mainCarousel .carousel-indicators {

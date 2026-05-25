@@ -180,13 +180,24 @@ body {
     margin: 8px 0;
   }
 
-  .navbar-nav-center {
+  .navbar-nav {
+    position: static;
+    left: auto;
+    transform: none;
     width: 100%;
+    justify-content: flex-end;
+  }
+
+  .navbar-nav-center {
+    width: auto;
     margin-bottom: 1rem;
+    margin-left: auto;
+    justify-content: flex-end;
+    display: flex;
   }
 
   .navbar-nav-center .nav-item {
-    width: 100%;
+    width: auto;
   }
 
   .navbar-nav-icons {

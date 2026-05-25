@@ -6,36 +6,21 @@ const Home = () => {
     const mainCarousel = document.getElementById("mainCarousel");
 
     function updateNavbarForSlide() {
-      const activeSlide = document.querySelector(".carousel-item.active");
-      const isFirstSlide = activeSlide?.classList.contains("first-slide");
-
       const navbar = document.querySelector(".navbar");
-      if (isFirstSlide) {
-        navbar?.classList.remove("tint");
-      } else {
-        navbar?.classList.add("tint");
-      }
+      navbar?.classList.add("tint");
     }
 
-    mainCarousel?.addEventListener("slide.bs.carousel", (e) => {
-      const nextSlide = e.relatedTarget;
-      const isFirstSlide = nextSlide.classList.contains("first-slide");
-
+    const handleSlideChange = () => {
       const navbar = document.querySelector(".navbar");
-      if (isFirstSlide) {
-        navbar?.classList.remove("tint");
-      } else {
-        navbar?.classList.add("tint");
-      }
-    });
+      navbar?.classList.add("tint");
+    };
+
+    mainCarousel?.addEventListener("slide.bs.carousel", handleSlideChange);
 
     updateNavbarForSlide();
 
     return () => {
-      mainCarousel?.removeEventListener(
-        "slide.bs.carousel",
-        updateNavbarForSlide,
-      );
+      mainCarousel?.removeEventListener("slide.bs.carousel", handleSlideChange);
     };
   }, []);
 

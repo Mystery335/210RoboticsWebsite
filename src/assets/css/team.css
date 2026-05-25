@@ -87,9 +87,15 @@ html {
   gap: var(--gap);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .mentors-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .mentors-grid > :nth-child(5),
+  .mentors-grid > :nth-child(6),
+  .mentors-grid > :nth-child(7) {
+    transform: none;
   }
 }
 
