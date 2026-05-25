@@ -15,7 +15,7 @@ function VexUTeam() {
 
       <section className="mentors-section light">
         <div className="container">
-          <div className="mentors-grid">
+          <div id="officers">
             {Object.entries(Officers).map(([name, position]) => (
               <div key={name} className="mentor-wrapper">
                 <div className="mentor-card">

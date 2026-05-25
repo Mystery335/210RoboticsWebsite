@@ -87,6 +87,14 @@ html {
   gap: var(--gap);
 }
 
+#officers > :nth-child(5),
+#officers > :nth-child(6),
+#officers > :nth-child(7),
+#officers > :nth-child(8) {
+  transform: none;
+}
+
+
 @media (max-width: 767px) {
   .mentors-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -94,7 +102,7 @@ html {
 
   .mentors-grid > :nth-child(5),
   .mentors-grid > :nth-child(6),
-  .mentors-grid > :nth-child(7) {
+  .mentors-grid > :nth-child(7){
     transform: none;
   }
 }
