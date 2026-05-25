@@ -51,6 +51,18 @@
 }
 
 @media (max-width: 768px) {
+  #mainCarousel {
+    height: 60vh;
+  }
+
+  #mainCarousel .carousel-item {
+    height: 60vh;
+  }
+
+  #mainCarousel .carousel-item > img {
+    height: 60vh;
+  }
+
   .logo-container img {
     transform: translateX(10px) translateY(45px);
   }
