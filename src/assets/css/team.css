@@ -94,6 +94,23 @@ html {
   transform: none;
 }
 
+@media (max-width: 767px) {
+  #officers {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  #officers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  #officers {
+    grid-template-columns: 1fr;
+  }
+}
 
 @media (max-width: 767px) {
   .mentors-grid {
