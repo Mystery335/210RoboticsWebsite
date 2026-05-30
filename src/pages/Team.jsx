@@ -50,6 +50,20 @@ const Team = () => {
           </div>
         </div>
       </section>
+
+      <section className="mentors-section mentors-alt dark" id="mentors">
+        <div className="container">
+          <div className="section-header">
+            <h2>Honorable Mention</h2>
+          </div>
+
+          <div className="container">
+            <div className="mentor-card">
+              <span>Jiseo Chon</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
